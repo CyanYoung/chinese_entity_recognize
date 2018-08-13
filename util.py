@@ -16,16 +16,6 @@ def load_word_re(path):
     return '(' + ')|('.join(words) + ')'
 
 
-def load_pair(path):
-    vocab = dict()
-    for word1, word2 in pd.read_csv(path).values:
-        if word1 not in vocab:
-            vocab[word1] = word2
-        if word2 not in vocab:
-            vocab[word2] = word1
-    return vocab
-
-
 def save_entity(path_train_dir, path_entity):
     entity_set = set()
     files = os.listdir(path_train_dir)
@@ -38,3 +28,13 @@ def save_entity(path_train_dir, path_entity):
     with open(path_entity, 'w') as f:
         for entity in entity_set:
             f.write(entity + '\n')
+
+
+def load_pair(path):
+    vocab = dict()
+    for word1, word2 in pd.read_csv(path).values:
+        if word1 not in vocab:
+            vocab[word1] = word2
+        if word2 not in vocab:
+            vocab[word2] = word1
+    return vocab
