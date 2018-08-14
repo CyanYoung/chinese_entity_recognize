@@ -30,7 +30,7 @@ def label_word(text, entitys, label):
         if triple['word'] in entitys:
             triple['label'] = label
         else:
-            triple['label'] = 'ELSE'
+            triple['label'] = 'N'
         triples.append(triple)
     return triples
 
@@ -38,7 +38,7 @@ def label_word(text, entitys, label):
 def merge(sents, text, triples):
     pre_triples = sents[text]
     for triple, pre_triple in zip(triples, pre_triples):
-        if triple['label'] != 'ELSE' and pre_triple['label'] == 'ELSE':
+        if triple['label'] != 'N' and pre_triple['label'] == 'N':
             pre_triple['label'] = triple['label']
 
 
@@ -56,7 +56,7 @@ def prepare(path, path_dir):
             else:
                 sents[text] = triples
     with open(path, 'w') as f:
-        json.dump(sents, f, ensure_ascii=False, indent=4)
+        json.dump(sents, f, ensure_ascii=False, indent=2)
 
 
 if __name__ == '__main__':

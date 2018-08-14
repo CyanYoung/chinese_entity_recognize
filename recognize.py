@@ -20,17 +20,19 @@ def restore(triples):
     words = list()
     for triple in triples:
         words.append(triple['word'])
-    return ' '.join(words)
+    return words
 
 
 def predict(text):
     text = re.sub(stop_word_re, '', text.strip())
     triples = label_word(text, [], '')
-    cut_text = restore(triples)
+    words = restore(triples)
     sent_feat = sent2feat(triples)
-    if __name__ == '__main__':
-        print(cut_text)
-    return crf.predict([sent_feat])[0]
+    preds = crf.predict([sent_feat])[0]
+    pairs = list()
+    for word, pred in zip(words, preds):
+        pairs.append((word, pred))
+    return pairs
 
 
 if __name__ == '__main__':
