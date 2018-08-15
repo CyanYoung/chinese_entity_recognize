@@ -6,7 +6,7 @@ from argparse import ArgumentParser
 
 from recognize import predict
 
-from util import load_word, load_pair, load_triple
+from util import load_word, load_pair, load_triple, get_logger
 
 
 path_slot = 'dict/slot.txt'
@@ -22,6 +22,9 @@ parser = ArgumentParser()
 parser.add_argument('-host', type=str, default='127.0.0.1')
 parser.add_argument('-port', type=str, default=2020)
 args = parser.parse_args()
+
+path_log_dir = 'log'
+logger = get_logger('extract', path_log_dir)
 
 
 def init_entity(slots):
@@ -52,7 +55,9 @@ def response():
             entitys[slot].append(word)
     data['intent'] = '_'.join(fill_slots)
     data['entity'] = entitys
-    return json.dumps(data, ensure_ascii=False)
+    data_str = json.dumps(data, ensure_ascii=False)
+    logger.info(data_str)
+    return data_str
 
 
 if __name__ == '__main__':
