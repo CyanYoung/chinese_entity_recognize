@@ -111,7 +111,7 @@
     {
       "word": "党委",
       "pos": "j",
-      "label": "N"
+      "label": "ORG"
     },
     {
       "word": "的",
@@ -186,33 +186,6 @@
       "word": "二营",
       "pos": "x",
       "label": "ORG"
-    }
-  ],
-  "怎么联系党委的王丽": [
-    {
-      "word": "怎么",
-      "pos": "r",
-      "label": "N"
-    },
-    {
-      "word": "联系",
-      "pos": "n",
-      "label": "N"
-    },
-    {
-      "word": "党委",
-      "pos": "j",
-      "label": "ORG"
-    },
-    {
-      "word": "的",
-      "pos": "uj",
-      "label": "N"
-    },
-    {
-      "word": "王丽",
-      "pos": "x",
-      "label": "N"
     }
   ],
   "我明天从北京去上海": [

@@ -38,3 +38,10 @@ def load_pair(path):
         if word2 not in vocab:
             vocab[word2] = word1
     return vocab
+
+
+def load_triple(path):
+    triples = list()
+    for field1, field2, field3 in pd.read_csv(path).values:
+        triples.append((field1, field2, field3))
+    return triples
