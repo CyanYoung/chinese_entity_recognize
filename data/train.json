@@ -1,375 +1,402 @@
 {
-  "我想找宣传部的李明": [
-    {
-      "word": "我",
-      "pos": "r",
-      "label": "N"
-    },
-    {
-      "word": "想",
-      "pos": "v",
-      "label": "N"
-    },
-    {
-      "word": "找",
-      "pos": "v",
-      "label": "N"
-    },
-    {
-      "word": "宣传部",
-      "pos": "nr",
-      "label": "ORG"
-    },
-    {
-      "word": "的",
-      "pos": "uj",
-      "label": "N"
-    },
-    {
-      "word": "李明",
-      "pos": "x",
-      "label": "PER"
-    }
-  ],
-  "我想找一连的张伟": [
-    {
-      "word": "我",
-      "pos": "r",
-      "label": "N"
-    },
-    {
-      "word": "想",
-      "pos": "v",
-      "label": "N"
-    },
-    {
-      "word": "找",
-      "pos": "v",
-      "label": "N"
-    },
-    {
-      "word": "一连",
-      "pos": "d",
-      "label": "ORG"
-    },
-    {
-      "word": "的",
-      "pos": "uj",
-      "label": "N"
-    },
-    {
-      "word": "张伟",
-      "pos": "x",
-      "label": "PER"
-    }
-  ],
-  "帮我转接到李强": [
-    {
-      "word": "帮",
-      "pos": "v",
-      "label": "N"
-    },
-    {
-      "word": "我",
-      "pos": "r",
-      "label": "N"
-    },
-    {
-      "word": "转接",
-      "pos": "v",
-      "label": "N"
-    },
-    {
-      "word": "到",
-      "pos": "v",
-      "label": "N"
-    },
-    {
-      "word": "李强",
-      "pos": "nrfg",
-      "label": "PER"
-    }
-  ],
-  "我找陈芳": [
-    {
-      "word": "我",
-      "pos": "r",
-      "label": "N"
-    },
-    {
-      "word": "找",
-      "pos": "v",
-      "label": "N"
-    },
-    {
-      "word": "陈芳",
-      "pos": "x",
-      "label": "PER"
-    }
-  ],
-  "党委的王丽怎么联系": [
-    {
-      "word": "党委",
-      "pos": "j",
-      "label": "ORG"
-    },
-    {
-      "word": "的",
-      "pos": "uj",
-      "label": "N"
-    },
-    {
-      "word": "王丽",
-      "pos": "x",
-      "label": "PER"
-    },
-    {
-      "word": "怎么",
-      "pos": "r",
-      "label": "N"
-    },
-    {
-      "word": "联系",
-      "pos": "n",
-      "label": "N"
-    }
-  ],
-  "我找团委的刘军": [
-    {
-      "word": "我",
-      "pos": "r",
-      "label": "N"
-    },
-    {
-      "word": "找",
-      "pos": "v",
-      "label": "N"
-    },
-    {
-      "word": "团委",
-      "pos": "n",
-      "label": "ORG"
-    },
-    {
-      "word": "的",
-      "pos": "uj",
-      "label": "N"
-    },
-    {
-      "word": "刘军",
-      "pos": "x",
-      "label": "PER"
-    }
-  ],
-  "帮我转接到二营": [
-    {
-      "word": "帮",
-      "pos": "v",
-      "label": "N"
-    },
-    {
-      "word": "我",
-      "pos": "r",
-      "label": "N"
-    },
-    {
-      "word": "转接",
-      "pos": "v",
-      "label": "N"
-    },
-    {
-      "word": "到",
-      "pos": "v",
-      "label": "N"
-    },
-    {
-      "word": "二营",
-      "pos": "x",
-      "label": "ORG"
-    }
-  ],
-  "我明天从北京去上海": [
-    {
-      "word": "我",
-      "pos": "r",
-      "label": "N"
-    },
-    {
-      "word": "明天",
-      "pos": "t",
-      "label": "TIME"
-    },
-    {
-      "word": "从",
-      "pos": "p",
-      "label": "N"
-    },
-    {
-      "word": "北京",
-      "pos": "ns",
-      "label": "LOC"
-    },
-    {
-      "word": "去",
-      "pos": "v",
-      "label": "N"
-    },
-    {
-      "word": "上海",
-      "pos": "ns",
-      "label": "LOC"
-    }
-  ],
-  "我这个月还有多少话费": [
-    {
-      "word": "我",
-      "pos": "r",
-      "label": "N"
-    },
-    {
-      "word": "这个月",
-      "pos": "x",
-      "label": "TIME"
-    },
-    {
-      "word": "还有",
-      "pos": "v",
-      "label": "N"
-    },
-    {
-      "word": "多少",
-      "pos": "m",
-      "label": "N"
-    },
-    {
-      "word": "话费",
-      "pos": "n",
-      "label": "N"
-    }
-  ],
-  "下个月送多少流量": [
-    {
-      "word": "下个月",
-      "pos": "t",
-      "label": "TIME"
-    },
-    {
-      "word": "送",
-      "pos": "v",
-      "label": "N"
-    },
-    {
-      "word": "多少",
-      "pos": "m",
-      "label": "N"
-    },
-    {
-      "word": "流量",
-      "pos": "n",
-      "label": "N"
-    }
-  ],
-  "今天你在海淀吗": [
-    {
-      "word": "今天",
-      "pos": "t",
-      "label": "TIME"
-    },
-    {
-      "word": "你",
-      "pos": "r",
-      "label": "N"
-    },
-    {
-      "word": "在",
-      "pos": "p",
-      "label": "N"
-    },
-    {
-      "word": "海淀",
-      "pos": "ns",
-      "label": "LOC"
-    },
-    {
-      "word": "吗",
-      "pos": "y",
-      "label": "N"
-    }
-  ],
-  "我在昌平待过一年": [
-    {
-      "word": "我",
-      "pos": "r",
-      "label": "N"
-    },
-    {
-      "word": "在",
-      "pos": "p",
-      "label": "N"
-    },
-    {
-      "word": "昌平",
-      "pos": "nr",
-      "label": "LOC"
-    },
-    {
-      "word": "待",
-      "pos": "v",
-      "label": "N"
-    },
-    {
-      "word": "过",
-      "pos": "ug",
-      "label": "N"
-    },
-    {
-      "word": "一年",
-      "pos": "m",
-      "label": "TIME"
-    }
-  ],
-  "去香港要经过深圳": [
-    {
-      "word": "去",
-      "pos": "v",
-      "label": "N"
-    },
-    {
-      "word": "香港",
-      "pos": "ns",
-      "label": "LOC"
-    },
-    {
-      "word": "要",
-      "pos": "v",
-      "label": "N"
-    },
-    {
-      "word": "经过",
-      "pos": "p",
-      "label": "N"
-    },
-    {
-      "word": "深圳",
-      "pos": "ns",
-      "label": "LOC"
-    }
-  ],
-  "我住朝阳": [
-    {
-      "word": "我",
-      "pos": "r",
-      "label": "N"
-    },
-    {
-      "word": "住",
-      "pos": "v",
-      "label": "N"
-    },
-    {
-      "word": "朝阳",
-      "pos": "ns",
-      "label": "LOC"
-    }
-  ]
+    "我想找宣传部的李明": [
+        {
+            "word": "我",
+            "pos": "r",
+            "label": "N"
+        },
+        {
+            "word": "想",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "找",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "宣传部",
+            "pos": "nr",
+            "label": "ORG"
+        },
+        {
+            "word": "的",
+            "pos": "uj",
+            "label": "N"
+        },
+        {
+            "word": "李明",
+            "pos": "x",
+            "label": "PER"
+        }
+    ],
+    "我想找一连的张伟": [
+        {
+            "word": "我",
+            "pos": "r",
+            "label": "N"
+        },
+        {
+            "word": "想",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "找",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "一连",
+            "pos": "d",
+            "label": "ORG"
+        },
+        {
+            "word": "的",
+            "pos": "uj",
+            "label": "N"
+        },
+        {
+            "word": "张伟",
+            "pos": "x",
+            "label": "PER"
+        }
+    ],
+    "帮我转接到李强": [
+        {
+            "word": "帮",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "我",
+            "pos": "r",
+            "label": "N"
+        },
+        {
+            "word": "转接",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "到",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "李强",
+            "pos": "nrfg",
+            "label": "PER"
+        }
+    ],
+    "我找陈芳": [
+        {
+            "word": "我",
+            "pos": "r",
+            "label": "N"
+        },
+        {
+            "word": "找",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "陈芳",
+            "pos": "x",
+            "label": "PER"
+        }
+    ],
+    "党委的王丽怎么联系": [
+        {
+            "word": "党委",
+            "pos": "j",
+            "label": "ORG"
+        },
+        {
+            "word": "的",
+            "pos": "uj",
+            "label": "N"
+        },
+        {
+            "word": "王丽",
+            "pos": "x",
+            "label": "PER"
+        },
+        {
+            "word": "怎么",
+            "pos": "r",
+            "label": "N"
+        },
+        {
+            "word": "联系",
+            "pos": "n",
+            "label": "N"
+        }
+    ],
+    "我找团委的刘军": [
+        {
+            "word": "我",
+            "pos": "r",
+            "label": "N"
+        },
+        {
+            "word": "找",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "团委",
+            "pos": "n",
+            "label": "ORG"
+        },
+        {
+            "word": "的",
+            "pos": "uj",
+            "label": "N"
+        },
+        {
+            "word": "刘军",
+            "pos": "x",
+            "label": "PER"
+        }
+    ],
+    "我找李刚的电话号码": [
+        {
+            "word": "我",
+            "pos": "r",
+            "label": "N"
+        },
+        {
+            "word": "找",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "李刚",
+            "pos": "x",
+            "label": "PER"
+        },
+        {
+            "word": "的",
+            "pos": "uj",
+            "label": "N"
+        },
+        {
+            "word": "电话号码",
+            "pos": "n",
+            "label": "N"
+        }
+    ],
+    "帮我转接到二营": [
+        {
+            "word": "帮",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "我",
+            "pos": "r",
+            "label": "N"
+        },
+        {
+            "word": "转接",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "到",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "二营",
+            "pos": "x",
+            "label": "ORG"
+        }
+    ],
+    "我明天从北京去上海": [
+        {
+            "word": "我",
+            "pos": "r",
+            "label": "N"
+        },
+        {
+            "word": "明天",
+            "pos": "t",
+            "label": "TIME"
+        },
+        {
+            "word": "从",
+            "pos": "p",
+            "label": "N"
+        },
+        {
+            "word": "北京",
+            "pos": "ns",
+            "label": "LOC"
+        },
+        {
+            "word": "去",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "上海",
+            "pos": "ns",
+            "label": "LOC"
+        }
+    ],
+    "我这个月还有多少话费": [
+        {
+            "word": "我",
+            "pos": "r",
+            "label": "N"
+        },
+        {
+            "word": "这个月",
+            "pos": "x",
+            "label": "TIME"
+        },
+        {
+            "word": "还有",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "多少",
+            "pos": "m",
+            "label": "N"
+        },
+        {
+            "word": "话费",
+            "pos": "n",
+            "label": "N"
+        }
+    ],
+    "下个月送多少流量": [
+        {
+            "word": "下个月",
+            "pos": "t",
+            "label": "TIME"
+        },
+        {
+            "word": "送",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "多少",
+            "pos": "m",
+            "label": "N"
+        },
+        {
+            "word": "流量",
+            "pos": "n",
+            "label": "N"
+        }
+    ],
+    "今天你在海淀吗": [
+        {
+            "word": "今天",
+            "pos": "t",
+            "label": "TIME"
+        },
+        {
+            "word": "你",
+            "pos": "r",
+            "label": "N"
+        },
+        {
+            "word": "在",
+            "pos": "p",
+            "label": "N"
+        },
+        {
+            "word": "海淀",
+            "pos": "ns",
+            "label": "LOC"
+        },
+        {
+            "word": "吗",
+            "pos": "y",
+            "label": "N"
+        }
+    ],
+    "我在昌平待过一年": [
+        {
+            "word": "我",
+            "pos": "r",
+            "label": "N"
+        },
+        {
+            "word": "在",
+            "pos": "p",
+            "label": "N"
+        },
+        {
+            "word": "昌平",
+            "pos": "nr",
+            "label": "LOC"
+        },
+        {
+            "word": "待",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "过",
+            "pos": "ug",
+            "label": "N"
+        },
+        {
+            "word": "一年",
+            "pos": "m",
+            "label": "TIME"
+        }
+    ],
+    "去香港要经过深圳": [
+        {
+            "word": "去",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "香港",
+            "pos": "ns",
+            "label": "LOC"
+        },
+        {
+            "word": "要",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "经过",
+            "pos": "p",
+            "label": "N"
+        },
+        {
+            "word": "深圳",
+            "pos": "ns",
+            "label": "LOC"
+        }
+    ],
+    "我住朝阳": [
+        {
+            "word": "我",
+            "pos": "r",
+            "label": "N"
+        },
+        {
+            "word": "住",
+            "pos": "v",
+            "label": "N"
+        },
+        {
+            "word": "朝阳",
+            "pos": "ns",
+            "label": "LOC"
+        }
+    ]
 }

@@ -80,9 +80,9 @@ def featurize(path_train, path_sent, path_label):
         label = sent2label(triples)
         labels.append(label)
     with open(path_sent, 'w') as f:
-        json.dump(sent_feats, f, ensure_ascii=False, indent=2)
+        json.dump(sent_feats, f, ensure_ascii=False, indent=4)
     with open(path_label, 'w') as f:
-        json.dump(labels, f, ensure_ascii=False, indent=2)
+        json.dump(labels, f, ensure_ascii=False, indent=4)
 
 
 if __name__ == '__main__':

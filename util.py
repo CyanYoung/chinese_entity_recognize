@@ -20,20 +20,6 @@ def load_word_re(path):
     return '(' + ')|('.join(words) + ')'
 
 
-def save_entity(path_train_dir, path_entity):
-    entity_set = set()
-    files = os.listdir(path_train_dir)
-    for file in files:
-        entity_strs = pd.read_csv(os.path.join(path_train_dir, file), usecols=[1]).values
-        for entity_str in entity_strs:
-            entitys = entity_str[0].strip().split()
-            for entity in entitys:
-                entity_set.add(entity)
-    with open(path_entity, 'w') as f:
-        for entity in entity_set:
-            f.write(entity + '\n')
-
-
 def load_pair(path):
     vocab = dict()
     for word1, word2 in pd.read_csv(path).values:

@@ -7,14 +7,37 @@ import re
 import jieba
 from jieba.posseg import cut as pos_cut
 
-from util import load_word_re, load_pair, save_entity
+from util import load_word, load_word_re, load_pair
+
+
+def save_entity(path_train_dir, path_entity):
+    entity_set = set()
+    files = os.listdir(path_train_dir)
+    for file in files:
+        entity_strs = pd.read_csv(os.path.join(path_train_dir, file), usecols=[1]).values
+        for entity_str in entity_strs:
+            entitys = entity_str[0].strip().split()
+            for entity in entitys:
+                entity_set.add(entity)
+    with open(path_entity, 'w') as f:
+        for entity in entity_set:
+            f.write(entity + '\n')
+
+
+def add_entity(path_word, path_entity):
+    words = load_word(path_word)
+    with open(path_entity, 'a') as f:
+        for word in words:
+            f.write(word + '\n')
 
 
 path_train_dir = 'data/train'
 path_entity = 'dict/entity.txt'
+path_person = 'dict/person.txt'
 path_chn_eng = 'dict/chn_eng.csv'
 path_stop_word = 'dict/stop_word.txt'
 save_entity(path_train_dir, path_entity)
+add_entity(path_person, path_entity)
 jieba.load_userdict(path_entity)
 chn_eng = load_pair(path_chn_eng)
 stop_word_re = load_word_re(path_stop_word)
@@ -56,7 +79,7 @@ def prepare(path, path_dir):
             else:
                 sents[text] = triples
     with open(path, 'w') as f:
-        json.dump(sents, f, ensure_ascii=False, indent=2)
+        json.dump(sents, f, ensure_ascii=False, indent=4)
 
 
 if __name__ == '__main__':
