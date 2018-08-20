@@ -7,3 +7,5 @@
 *.so
 *.out
 
+# privacy
+person.txt
