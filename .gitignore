@@ -8,4 +8,5 @@
 *.out
 
 # privacy
+*.log
 person.txt
