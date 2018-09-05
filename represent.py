@@ -46,7 +46,7 @@ def sent2feat(triples):
                 'last_digit': include_digit(last_triple['word'])
             })
         else:
-            word_feat['BoS'] = True
+            word_feat['bos'] = True
         if i < len(triples) - 1:
             next_triple = triples[i + 1]
             word_feat.update({
@@ -57,7 +57,7 @@ def sent2feat(triples):
                 'next_digit': include_digit(next_triple['word'])
             })
         else:
-            word_feat['EoS'] = True
+            word_feat['eos'] = True
         sent_feat.append(word_feat)
     return sent_feat
 
