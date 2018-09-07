@@ -42,7 +42,7 @@ def map_slot(word, pred):
     return pred
 
 
-@app.route('/extract', methods=['POST'])
+@app.route('/recognize', methods=['POST'])
 def response():
     entitys = init_entity(slots)
     data = request.get_json()

@@ -63,10 +63,10 @@ def sent2feat(triples):
 
 
 def sent2label(triples):
-    sent_label = list()
+    label = list()
     for triple in triples:
-        sent_label.append(triple['label'])
-    return sent_label
+        label.append(triple['label'])
+    return label
 
 
 def featurize(path_train, path_sent, path_label):
@@ -75,10 +75,8 @@ def featurize(path_train, path_sent, path_label):
     sent_feats = list()
     labels = list()
     for triples in sents.values():
-        sent_feat = sent2feat(triples)
-        sent_feats.append(sent_feat)
-        label = sent2label(triples)
-        labels.append(label)
+        sent_feats.append(sent2feat(triples))
+        labels.append(sent2label(triples))
     with open(path_sent, 'w') as f:
         json.dump(sent_feats, f, ensure_ascii=False, indent=4)
     with open(path_label, 'w') as f:
