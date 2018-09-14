@@ -10,10 +10,10 @@ from util import load_word, load_pair, load_triple, get_logger
 
 
 path_slot = 'dict/slot.txt'
-path_chn_eng = 'dict/chn_eng.csv'
+path_zh_en = 'dict/zh_en.csv'
 path_label_key_slot = 'dict/label_key_slot.csv'
 slots = load_word(path_slot)
-chn_eng = load_pair(path_chn_eng)
+zh_en = load_pair(path_zh_en)
 label_key_slot = load_triple(path_label_key_slot)
 
 app = Flask(__name__)
@@ -50,7 +50,7 @@ def response():
     fill_slots = list()
     for word, pred in pairs:
         if pred != 'N':
-            slot = map_slot(word, chn_eng[pred])
+            slot = map_slot(word, zh_en[pred])
             fill_slots.append(slot)
             entitys[slot].append(word)
     data['intent'] = '_'.join(fill_slots)

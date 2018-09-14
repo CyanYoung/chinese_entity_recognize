@@ -34,12 +34,12 @@ def add_entity(path_word, path_entity):
 path_train_dir = 'data/train'
 path_entity = 'dict/entity.txt'
 path_person = 'dict/person.txt'
-path_chn_eng = 'dict/chn_eng.csv'
+path_zh_en = 'dict/zh_en.csv'
 path_stop_word = 'dict/stop_word.txt'
 save_entity(path_train_dir, path_entity)
 add_entity(path_person, path_entity)
 jieba.load_userdict(path_entity)
-chn_eng = load_pair(path_chn_eng)
+zh_en = load_pair(path_zh_en)
 stop_word_re = load_word_re(path_stop_word)
 
 
@@ -69,7 +69,7 @@ def prepare(path, path_dir):
     sents = dict()
     files = os.listdir(path_dir)
     for file in files:
-        label = chn_eng[os.path.splitext(file)[0]]
+        label = zh_en[os.path.splitext(file)[0]]
         for text, entity_str in pd.read_csv(os.path.join(path_dir, file)).values:
             text = re.sub(stop_word_re, '', text.strip())
             entitys = entity_str.strip().split()
