@@ -3,17 +3,17 @@
         {
             "word": "我",
             "pos": "r",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "想",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "找",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "宣传部",
@@ -23,7 +23,7 @@
         {
             "word": "的",
             "pos": "uj",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "李明",
@@ -35,17 +35,17 @@
         {
             "word": "我",
             "pos": "r",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "想",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "找",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "一连",
@@ -55,7 +55,7 @@
         {
             "word": "的",
             "pos": "uj",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "张伟",
@@ -67,22 +67,22 @@
         {
             "word": "帮",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "我",
             "pos": "r",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "转接",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "到",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "李强",
@@ -94,12 +94,12 @@
         {
             "word": "我",
             "pos": "r",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "找",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "陈芳",
@@ -116,7 +116,7 @@
         {
             "word": "的",
             "pos": "uj",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "王丽",
@@ -126,24 +126,24 @@
         {
             "word": "怎么",
             "pos": "r",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "联系",
             "pos": "n",
-            "label": "N"
+            "label": "O"
         }
     ],
     "我找团委的刘军": [
         {
             "word": "我",
             "pos": "r",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "找",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "团委",
@@ -153,7 +153,7 @@
         {
             "word": "的",
             "pos": "uj",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "刘军",
@@ -165,12 +165,12 @@
         {
             "word": "我",
             "pos": "r",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "找",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "李刚",
@@ -180,34 +180,34 @@
         {
             "word": "的",
             "pos": "uj",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "电话号码",
             "pos": "n",
-            "label": "N"
+            "label": "O"
         }
     ],
     "帮我转接到二营": [
         {
             "word": "帮",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "我",
             "pos": "r",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "转接",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "到",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "二营",
@@ -219,7 +219,7 @@
         {
             "word": "我",
             "pos": "r",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "明天",
@@ -229,7 +229,7 @@
         {
             "word": "从",
             "pos": "p",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "北京",
@@ -239,7 +239,7 @@
         {
             "word": "去",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "上海",
@@ -251,7 +251,7 @@
         {
             "word": "我",
             "pos": "r",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "这个月",
@@ -261,17 +261,17 @@
         {
             "word": "还有",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "多少",
             "pos": "m",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "话费",
             "pos": "n",
-            "label": "N"
+            "label": "O"
         }
     ],
     "下个月送多少流量": [
@@ -283,17 +283,17 @@
         {
             "word": "送",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "多少",
             "pos": "m",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "流量",
             "pos": "n",
-            "label": "N"
+            "label": "O"
         }
     ],
     "今天你在海淀吗": [
@@ -305,12 +305,12 @@
         {
             "word": "你",
             "pos": "r",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "在",
             "pos": "p",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "海淀",
@@ -320,19 +320,19 @@
         {
             "word": "吗",
             "pos": "y",
-            "label": "N"
+            "label": "O"
         }
     ],
     "我在昌平待过一年": [
         {
             "word": "我",
             "pos": "r",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "在",
             "pos": "p",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "昌平",
@@ -342,12 +342,12 @@
         {
             "word": "待",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "过",
             "pos": "ug",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "一年",
@@ -359,7 +359,7 @@
         {
             "word": "去",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "香港",
@@ -369,12 +369,12 @@
         {
             "word": "要",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "经过",
             "pos": "p",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "深圳",
@@ -386,12 +386,12 @@
         {
             "word": "我",
             "pos": "r",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "住",
             "pos": "v",
-            "label": "N"
+            "label": "O"
         },
         {
             "word": "朝阳",

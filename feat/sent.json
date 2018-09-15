@@ -6,7 +6,7 @@
             "pos": "r",
             "name": false,
             "digit": false,
-            "BoS": true,
+            "bos": true,
             "next_word": "想",
             "next_len": 1,
             "next_pos": "v",
@@ -92,7 +92,7 @@
             "last_pos": "uj",
             "last_name": false,
             "last_digit": false,
-            "EoS": true
+            "eos": true
         }
     ],
     [
@@ -102,7 +102,7 @@
             "pos": "r",
             "name": false,
             "digit": false,
-            "BoS": true,
+            "bos": true,
             "next_word": "想",
             "next_len": 1,
             "next_pos": "v",
@@ -188,7 +188,7 @@
             "last_pos": "uj",
             "last_name": false,
             "last_digit": false,
-            "EoS": true
+            "eos": true
         }
     ],
     [
@@ -198,7 +198,7 @@
             "pos": "v",
             "name": false,
             "digit": false,
-            "BoS": true,
+            "bos": true,
             "next_word": "我",
             "next_len": 1,
             "next_pos": "r",
@@ -267,7 +267,7 @@
             "last_pos": "v",
             "last_name": false,
             "last_digit": false,
-            "EoS": true
+            "eos": true
         }
     ],
     [
@@ -277,7 +277,7 @@
             "pos": "r",
             "name": false,
             "digit": false,
-            "BoS": true,
+            "bos": true,
             "next_word": "找",
             "next_len": 1,
             "next_pos": "v",
@@ -312,7 +312,7 @@
             "last_pos": "v",
             "last_name": false,
             "last_digit": false,
-            "EoS": true
+            "eos": true
         }
     ],
     [
@@ -322,7 +322,7 @@
             "pos": "j",
             "name": false,
             "digit": false,
-            "BoS": true,
+            "bos": true,
             "next_word": "的",
             "next_len": 1,
             "next_pos": "uj",
@@ -391,7 +391,7 @@
             "last_pos": "r",
             "last_name": false,
             "last_digit": false,
-            "EoS": true
+            "eos": true
         }
     ],
     [
@@ -401,7 +401,7 @@
             "pos": "r",
             "name": false,
             "digit": false,
-            "BoS": true,
+            "bos": true,
             "next_word": "找",
             "next_len": 1,
             "next_pos": "v",
@@ -470,7 +470,7 @@
             "last_pos": "uj",
             "last_name": false,
             "last_digit": false,
-            "EoS": true
+            "eos": true
         }
     ],
     [
@@ -480,7 +480,7 @@
             "pos": "r",
             "name": false,
             "digit": false,
-            "BoS": true,
+            "bos": true,
             "next_word": "找",
             "next_len": 1,
             "next_pos": "v",
@@ -549,7 +549,7 @@
             "last_pos": "uj",
             "last_name": false,
             "last_digit": false,
-            "EoS": true
+            "eos": true
         }
     ],
     [
@@ -559,7 +559,7 @@
             "pos": "v",
             "name": false,
             "digit": false,
-            "BoS": true,
+            "bos": true,
             "next_word": "我",
             "next_len": 1,
             "next_pos": "r",
@@ -628,7 +628,7 @@
             "last_pos": "v",
             "last_name": false,
             "last_digit": false,
-            "EoS": true
+            "eos": true
         }
     ],
     [
@@ -638,7 +638,7 @@
             "pos": "r",
             "name": false,
             "digit": false,
-            "BoS": true,
+            "bos": true,
             "next_word": "明天",
             "next_len": 2,
             "next_pos": "t",
@@ -724,7 +724,7 @@
             "last_pos": "v",
             "last_name": false,
             "last_digit": false,
-            "EoS": true
+            "eos": true
         }
     ],
     [
@@ -734,7 +734,7 @@
             "pos": "r",
             "name": false,
             "digit": false,
-            "BoS": true,
+            "bos": true,
             "next_word": "这个月",
             "next_len": 3,
             "next_pos": "x",
@@ -803,7 +803,7 @@
             "last_pos": "m",
             "last_name": false,
             "last_digit": false,
-            "EoS": true
+            "eos": true
         }
     ],
     [
@@ -813,7 +813,7 @@
             "pos": "t",
             "name": false,
             "digit": false,
-            "BoS": true,
+            "bos": true,
             "next_word": "送",
             "next_len": 1,
             "next_pos": "v",
@@ -865,7 +865,7 @@
             "last_pos": "m",
             "last_name": false,
             "last_digit": false,
-            "EoS": true
+            "eos": true
         }
     ],
     [
@@ -875,7 +875,7 @@
             "pos": "t",
             "name": false,
             "digit": false,
-            "BoS": true,
+            "bos": true,
             "next_word": "你",
             "next_len": 1,
             "next_pos": "r",
@@ -944,7 +944,7 @@
             "last_pos": "ns",
             "last_name": false,
             "last_digit": false,
-            "EoS": true
+            "eos": true
         }
     ],
     [
@@ -954,7 +954,7 @@
             "pos": "r",
             "name": false,
             "digit": false,
-            "BoS": true,
+            "bos": true,
             "next_word": "在",
             "next_len": 1,
             "next_pos": "p",
@@ -1040,7 +1040,7 @@
             "last_pos": "ug",
             "last_name": false,
             "last_digit": false,
-            "EoS": true
+            "eos": true
         }
     ],
     [
@@ -1050,7 +1050,7 @@
             "pos": "v",
             "name": false,
             "digit": false,
-            "BoS": true,
+            "bos": true,
             "next_word": "香港",
             "next_len": 2,
             "next_pos": "ns",
@@ -1119,7 +1119,7 @@
             "last_pos": "p",
             "last_name": false,
             "last_digit": false,
-            "EoS": true
+            "eos": true
         }
     ],
     [
@@ -1129,7 +1129,7 @@
             "pos": "r",
             "name": false,
             "digit": false,
-            "BoS": true,
+            "bos": true,
             "next_word": "住",
             "next_len": 1,
             "next_pos": "v",
@@ -1164,7 +1164,7 @@
             "last_pos": "v",
             "last_name": false,
             "last_digit": false,
-            "EoS": true
+            "eos": true
         }
     ]
 ]

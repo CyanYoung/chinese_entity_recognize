@@ -53,7 +53,7 @@ def label_word(text, entitys, label):
         if triple['word'] in entitys:
             triple['label'] = label
         else:
-            triple['label'] = 'N'
+            triple['label'] = 'O'
         triples.append(triple)
     return triples
 
@@ -61,7 +61,7 @@ def label_word(text, entitys, label):
 def merge(sents, text, triples):
     pre_triples = sents[text]
     for triple, pre_triple in zip(triples, pre_triples):
-        if triple['label'] != 'N' and pre_triple['label'] == 'N':
+        if triple['label'] != 'O' and pre_triple['label'] == 'O':
             pre_triple['label'] = triple['label']
 
 

@@ -49,7 +49,7 @@ def response():
     pairs = predict(data['content'])
     fill_slots = list()
     for word, pred in pairs:
-        if pred != 'N':
+        if pred != 'O':
             slot = map_slot(word, zh_en[pred])
             fill_slots.append(slot)
             entitys[slot].append(word)
