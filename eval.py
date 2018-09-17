@@ -5,8 +5,8 @@ from sklearn_crfsuite.metrics import flat_accuracy_score
 from recognize import restore_word, predict
 
 
-def test(path_test):
-    with open(path_test, 'r') as f:
+def test(path):
+    with open(path, 'r') as f:
         sents = json.load(f)
     label_mat = list()
     pred_mat = list()
@@ -38,5 +38,5 @@ def test(path_test):
 
 
 if __name__ == '__main__':
-    path_test = 'data/test.json'
-    test(path_test)
+    path = 'data/test.json'
+    test(path)

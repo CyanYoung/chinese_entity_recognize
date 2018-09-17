@@ -83,9 +83,9 @@ def prepare(path, path_dir):
 
 
 if __name__ == '__main__':
-    path_train = 'data/train.json'
-    path_train_dir = 'data/train'
-    path_test = 'data/test.json'
-    path_test_dir = 'data/test'
-    prepare(path_train, path_train_dir)
-    prepare(path_test, path_test_dir)
+    path = 'data/train.json'
+    path_dir = 'data/train'
+    prepare(path, path_dir)
+    path = 'data/test.json'
+    path_dir = 'data/test'
+    prepare(path, path_dir)

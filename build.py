@@ -25,7 +25,7 @@ def fit(path_sent, path_label, path_crf):
 
 
 if __name__ == '__main__':
-    path_sent = 'feat/sent.json'
-    path_label = 'feat/label.json'
+    path_sent = 'feat/sent_train.json'
+    path_label = 'feat/label_train.json'
     path_crf = 'model/crf.pkl'
     fit(path_sent, path_label, path_crf)
