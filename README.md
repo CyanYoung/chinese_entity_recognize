@@ -12,11 +12,11 @@ jieba.load_userdict() 保证已有实体不被切分
 
 #### 2.represent
 
-sent2feat() 为词增加句首、句尾，是否包含姓氏、数字等特征
+sent2feat() 为词增加是否句首、句尾，是否包含姓氏、数字等特征
 
 #### 3.build
 
-CRF() 构建实体识别模型，使用 L1 和 L2 正则化
+通过 CRF() 构建实体识别模型，使用 L1 和 L2 正则化
 
 #### 4.recognize
 
