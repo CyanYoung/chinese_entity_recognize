@@ -6,7 +6,7 @@ from random import shuffle
 from sklearn_crfsuite import CRF
 
 
-min_freq = 0
+min_freq = 1
 
 
 def fit(path_sent, path_label, path_crf):
