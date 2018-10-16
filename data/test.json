@@ -31,39 +31,7 @@
             "label": "PER"
         }
     ],
-    "我想找一连的张伟": [
-        {
-            "word": "我",
-            "pos": "r",
-            "label": "O"
-        },
-        {
-            "word": "想",
-            "pos": "v",
-            "label": "O"
-        },
-        {
-            "word": "找",
-            "pos": "v",
-            "label": "O"
-        },
-        {
-            "word": "一连",
-            "pos": "d",
-            "label": "ORG"
-        },
-        {
-            "word": "的",
-            "pos": "uj",
-            "label": "O"
-        },
-        {
-            "word": "张伟",
-            "pos": "x",
-            "label": "PER"
-        }
-    ],
-    "帮我转接到李强": [
+    "帮我转接到二营": [
         {
             "word": "帮",
             "pos": "v",
@@ -85,12 +53,12 @@
             "label": "O"
         },
         {
-            "word": "李强",
-            "pos": "nrfg",
-            "label": "PER"
+            "word": "二营",
+            "pos": "x",
+            "label": "ORG"
         }
     ],
-    "我找陈芳": [
+    "我找一连张伟": [
         {
             "word": "我",
             "pos": "r",
@@ -102,7 +70,12 @@
             "label": "O"
         },
         {
-            "word": "陈芳",
+            "word": "一连",
+            "pos": "d",
+            "label": "ORG"
+        },
+        {
+            "word": "张伟",
             "pos": "x",
             "label": "PER"
         }
@@ -161,21 +134,16 @@
             "label": "PER"
         }
     ],
-    "我找李刚的电话号码": [
+    "三排杨勇的号码是多少": [
         {
-            "word": "我",
-            "pos": "r",
-            "label": "O"
+            "word": "三排",
+            "pos": "m",
+            "label": "ORG"
         },
         {
-            "word": "找",
-            "pos": "v",
+            "word": "杨勇",
+            "pos": "nr",
             "label": "O"
-        },
-        {
-            "word": "李刚",
-            "pos": "x",
-            "label": "PER"
         },
         {
             "word": "的",
@@ -183,12 +151,22 @@
             "label": "O"
         },
         {
-            "word": "电话号码",
+            "word": "号码",
             "pos": "n",
+            "label": "O"
+        },
+        {
+            "word": "是",
+            "pos": "v",
+            "label": "O"
+        },
+        {
+            "word": "多少",
+            "pos": "m",
             "label": "O"
         }
     ],
-    "帮我转接到二营": [
+    "帮我转接到李强": [
         {
             "word": "帮",
             "pos": "v",
@@ -210,21 +188,60 @@
             "label": "O"
         },
         {
-            "word": "二营",
-            "pos": "x",
-            "label": "ORG"
+            "word": "李强",
+            "pos": "nrfg",
+            "label": "PER"
         }
     ],
-    "我明天从北京去上海": [
+    "我找陈芳": [
         {
             "word": "我",
             "pos": "r",
             "label": "O"
         },
         {
-            "word": "明天",
-            "pos": "t",
-            "label": "TIME"
+            "word": "找",
+            "pos": "v",
+            "label": "O"
+        },
+        {
+            "word": "陈芳",
+            "pos": "x",
+            "label": "PER"
+        }
+    ],
+    "李刚的电话是多少": [
+        {
+            "word": "李刚",
+            "pos": "x",
+            "label": "PER"
+        },
+        {
+            "word": "的",
+            "pos": "uj",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "pos": "n",
+            "label": "O"
+        },
+        {
+            "word": "是",
+            "pos": "v",
+            "label": "O"
+        },
+        {
+            "word": "多少",
+            "pos": "m",
+            "label": "O"
+        }
+    ],
+    "我从北京去上海": [
+        {
+            "word": "我",
+            "pos": "r",
+            "label": "O"
         },
         {
             "word": "从",
@@ -247,61 +264,29 @@
             "label": "LOC"
         }
     ],
-    "我这个月还有多少话费": [
+    "杭州的天气怎么样": [
         {
-            "word": "我",
+            "word": "杭州",
+            "pos": "ns",
+            "label": "LOC"
+        },
+        {
+            "word": "的",
+            "pos": "uj",
+            "label": "O"
+        },
+        {
+            "word": "天气",
+            "pos": "n",
+            "label": "O"
+        },
+        {
+            "word": "怎么样",
             "pos": "r",
             "label": "O"
-        },
-        {
-            "word": "这个月",
-            "pos": "x",
-            "label": "TIME"
-        },
-        {
-            "word": "还有",
-            "pos": "v",
-            "label": "O"
-        },
-        {
-            "word": "多少",
-            "pos": "m",
-            "label": "O"
-        },
-        {
-            "word": "话费",
-            "pos": "n",
-            "label": "O"
         }
     ],
-    "下个月送多少流量": [
-        {
-            "word": "下个月",
-            "pos": "t",
-            "label": "TIME"
-        },
-        {
-            "word": "送",
-            "pos": "v",
-            "label": "O"
-        },
-        {
-            "word": "多少",
-            "pos": "m",
-            "label": "O"
-        },
-        {
-            "word": "流量",
-            "pos": "n",
-            "label": "O"
-        }
-    ],
-    "今天你在海淀吗": [
-        {
-            "word": "今天",
-            "pos": "t",
-            "label": "TIME"
-        },
+    "你在海淀吗": [
         {
             "word": "你",
             "pos": "r",
@@ -323,41 +308,9 @@
             "label": "O"
         }
     ],
-    "我在昌平待过一年": [
+    "到香港要经过深圳": [
         {
-            "word": "我",
-            "pos": "r",
-            "label": "O"
-        },
-        {
-            "word": "在",
-            "pos": "p",
-            "label": "O"
-        },
-        {
-            "word": "昌平",
-            "pos": "nr",
-            "label": "LOC"
-        },
-        {
-            "word": "待",
-            "pos": "v",
-            "label": "O"
-        },
-        {
-            "word": "过",
-            "pos": "ug",
-            "label": "O"
-        },
-        {
-            "word": "一年",
-            "pos": "m",
-            "label": "TIME"
-        }
-    ],
-    "去香港要经过深圳": [
-        {
-            "word": "去",
+            "word": "到",
             "pos": "v",
             "label": "O"
         },
@@ -397,6 +350,38 @@
             "word": "朝阳",
             "pos": "ns",
             "label": "LOC"
+        }
+    ],
+    "我在昌平待过一年": [
+        {
+            "word": "我",
+            "pos": "r",
+            "label": "O"
+        },
+        {
+            "word": "在",
+            "pos": "p",
+            "label": "O"
+        },
+        {
+            "word": "昌平",
+            "pos": "nr",
+            "label": "LOC"
+        },
+        {
+            "word": "待",
+            "pos": "v",
+            "label": "O"
+        },
+        {
+            "word": "过",
+            "pos": "ug",
+            "label": "O"
+        },
+        {
+            "word": "一年",
+            "pos": "m",
+            "label": "O"
         }
     ]
 }
