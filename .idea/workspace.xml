@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31c0534f-f5f5-4873-8d0b-1c31ec75fa55" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/dict/pre_name.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dict/pre_name.txt" afterDir="false" />
-    </list>
+    <list default="true" id="31c0534f-f5f5-4873-8d0b-1c31ec75fa55" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,31 +77,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="49" />
+          <entry key="csv" value="54" />
           <entry key="gitignore" value="9" />
           <entry key="json" value="44" />
           <entry key="log" value="13" />
           <entry key="md" value="6" />
           <entry key="out" value="6" />
-          <entry key="py" value="21" />
+          <entry key="py" value="25" />
           <entry key="sh" value="7" />
-          <entry key="txt" value="35" />
+          <entry key="txt" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Bash" value="7" />
-          <entry key="CSV" value="49" />
+          <entry key="CSV" value="54" />
           <entry key="JSON" value="44" />
           <entry key="Log" value="13" />
           <entry key="Markdown" value="6" />
-          <entry key="PLAIN_TEXT" value="50" />
-          <entry key="Python" value="21" />
+          <entry key="PLAIN_TEXT" value="54" />
+          <entry key="Python" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="csv" value="206" />
+          <entry key="csv" value="208" />
           <entry key="gitignore" value="82" />
           <entry key="json" value="42" />
           <entry key="py" value="3797" />
@@ -114,7 +112,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Bash" value="287" />
-          <entry key="CSV" value="206" />
+          <entry key="CSV" value="208" />
           <entry key="JSON" value="42" />
           <entry key="PLAIN_TEXT" value="99" />
           <entry key="Python" value="3797" />
@@ -129,10 +127,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="135">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
                 <marker date="1537172478082" expanded="true" signature="696:830" ph="..." />
                 <marker date="1537172478082" expanded="true" signature="1600:1806" ph="..." />
               </folding>
@@ -180,8 +177,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="135">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
                 <marker date="1537178224139" expanded="true" signature="1085:1088" ph="..." />
@@ -266,13 +263,13 @@
         <option value="$PROJECT_DIR$/data/train/地区.csv" />
         <option value="$PROJECT_DIR$/data/train/组织.csv" />
         <option value="$PROJECT_DIR$/data/train/机构.csv" />
-        <option value="$PROJECT_DIR$/dict/zh_en.csv" />
         <option value="$PROJECT_DIR$/dict/label_key_slot.csv" />
         <option value="$PROJECT_DIR$/dict/slot.txt" />
         <option value="$PROJECT_DIR$/data/train/人名.csv" />
         <option value="$PROJECT_DIR$/data/test/人名.csv" />
         <option value="$PROJECT_DIR$/represent.py" />
         <option value="$PROJECT_DIR$/dict/pre_name.txt" />
+        <option value="$PROJECT_DIR$/dict/zh_en.csv" />
       </list>
     </option>
   </component>
@@ -298,17 +295,6 @@
             <path>
               <item name="chinese_entity_recognize" type="b2602c69:ProjectViewProjectNode" />
               <item name="chinese_entity_recognize" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chinese_entity_recognize" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chinese_entity_recognize" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chinese_entity_recognize" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chinese_entity_recognize" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="train" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -561,13 +547,6 @@
     <entry file="file://$PROJECT_DIR$/data/test.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dict/person.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -625,9 +604,6 @@
     <entry file="file://$PROJECT_DIR$/dict/stop_word.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dict/zh_en.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/test/人名.csv">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -636,10 +612,30 @@
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dict/entity.txt">
+    <entry file="file://$PROJECT_DIR$/start_service.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state relative-caret-position="255">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feat/label_train.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feat/sent_train.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dict/pre_name.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dict/person.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -650,17 +646,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/start_service.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dict/label_key_slot.csv">
+    <entry file="file://$PROJECT_DIR$/data/train/人名.csv">
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
@@ -675,26 +664,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feat/label_train.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feat/sent_train.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/represent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/dict/zh_en.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/eval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="135">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <marker date="1537178224139" expanded="true" signature="1085:1088" ph="..." />
@@ -704,8 +680,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="270">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <marker date="1534498257149" expanded="true" signature="592:593" ph="..." />
@@ -724,27 +700,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dict/pre_name.txt">
+    <entry file="file://$PROJECT_DIR$/represent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+        <state relative-caret-position="240">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/train/人名.csv">
+    <entry file="file://$PROJECT_DIR$/dict/entity.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dict/label_key_slot.csv">
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="15">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="135">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
             <marker date="1537172478082" expanded="true" signature="696:830" ph="..." />
             <marker date="1537172478082" expanded="true" signature="1600:1806" ph="..." />
           </folding>
