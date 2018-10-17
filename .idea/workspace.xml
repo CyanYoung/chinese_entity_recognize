@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31c0534f-f5f5-4873-8d0b-1c31ec75fa55" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/dict/name.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dict/pre_name.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dict/pre_name.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +18,7 @@
     <SUITE FILE_PATH="coverage/entity_recognize$build.coverage" NAME="build Coverage Results" MODIFIED="1534076693574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chinese_entity_recognize$eval.coverage" NAME="eval Coverage Results" MODIFIED="1537175837592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/entity_recognize$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1534076685517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chinese_entity_recognize$represent.coverage" NAME="represent Coverage Results" MODIFIED="1539672964157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chinese_entity_recognize$represent.coverage" NAME="represent Coverage Results" MODIFIED="1539757653002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chinese_entity_recognize$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1539674109585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chinese_entity_recognize$run.coverage" NAME="run Coverage Results" MODIFIED="1534130258435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chinese_entity_recognize$web_service.coverage" NAME="web_service Coverage Results" MODIFIED="1534303353881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -79,26 +79,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="48" />
+          <entry key="csv" value="49" />
           <entry key="gitignore" value="9" />
-          <entry key="json" value="42" />
+          <entry key="json" value="44" />
           <entry key="log" value="13" />
           <entry key="md" value="6" />
           <entry key="out" value="6" />
-          <entry key="py" value="20" />
+          <entry key="py" value="21" />
           <entry key="sh" value="7" />
-          <entry key="txt" value="34" />
+          <entry key="txt" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Bash" value="7" />
-          <entry key="CSV" value="48" />
-          <entry key="JSON" value="42" />
+          <entry key="CSV" value="49" />
+          <entry key="JSON" value="44" />
           <entry key="Log" value="13" />
           <entry key="Markdown" value="6" />
-          <entry key="PLAIN_TEXT" value="49" />
-          <entry key="Python" value="20" />
+          <entry key="PLAIN_TEXT" value="50" />
+          <entry key="Python" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -106,7 +106,7 @@
           <entry key="csv" value="206" />
           <entry key="gitignore" value="82" />
           <entry key="json" value="42" />
-          <entry key="py" value="3781" />
+          <entry key="py" value="3797" />
           <entry key="sh" value="287" />
           <entry key="txt" value="17" />
         </counts>
@@ -117,7 +117,7 @@
           <entry key="CSV" value="206" />
           <entry key="JSON" value="42" />
           <entry key="PLAIN_TEXT" value="99" />
-          <entry key="Python" value="3781" />
+          <entry key="Python" value="3797" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -126,11 +126,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-511">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
                 <marker date="1537172478082" expanded="true" signature="696:830" ph="..." />
@@ -140,11 +140,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/represent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="240">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -223,11 +223,11 @@
       <find>key2slot</find>
       <find>labels</find>
       <find>key_label_slot</find>
-      <find>name</find>
       <find>re</find>
       <find>chn_eng</find>
       <find>text</find>
       <find>组织</find>
+      <find>name</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -260,7 +260,6 @@
         <option value="$PROJECT_DIR$/dict/person.txt" />
         <option value="$PROJECT_DIR$/web_interface.py" />
         <option value="$PROJECT_DIR$/preprocess.py" />
-        <option value="$PROJECT_DIR$/represent.py" />
         <option value="$PROJECT_DIR$/eval.py" />
         <option value="$PROJECT_DIR$/build.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -272,6 +271,8 @@
         <option value="$PROJECT_DIR$/dict/slot.txt" />
         <option value="$PROJECT_DIR$/data/train/人名.csv" />
         <option value="$PROJECT_DIR$/data/test/人名.csv" />
+        <option value="$PROJECT_DIR$/represent.py" />
+        <option value="$PROJECT_DIR$/dict/pre_name.txt" />
       </list>
     </option>
   </component>
@@ -340,7 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.preprocess">
+  <component name="RunManager" selected="Python.represent">
     <configuration name="build" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chinese_entity_recognize" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -460,10 +461,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.represent" />
         <item itemvalue="Python.preprocess" />
         <item itemvalue="Python.recognize" />
         <item itemvalue="Python.build" />
-        <item itemvalue="Python.represent" />
         <item itemvalue="Python.eval" />
       </list>
     </recent_temporary>
@@ -483,13 +484,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32756326" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3954727" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39946738" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -515,7 +515,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dict/key_label_slot.csv" />
     <entry file="file://$PROJECT_DIR$/web_service.py" />
     <entry file="file://$PROJECT_DIR$/log/20180815_163642.log" />
     <entry file="file://$PROJECT_DIR$/log/20180815_170705.log" />
@@ -551,12 +550,6 @@
     <entry file="file://$PROJECT_DIR$/feat/label.json" />
     <entry file="file://$PROJECT_DIR$/feat/sent.json" />
     <entry file="file://$PROJECT_DIR$/feat/label_test.json" />
-    <entry file="file://$PROJECT_DIR$/feat/label_train.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feat/sent_train.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/train.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -623,27 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <marker date="1534498257149" expanded="true" signature="592:593" ph="..." />
-            <marker date="1534498257149" expanded="true" signature="638:639" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recognize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dict/digit.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -652,17 +624,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dict/stop_word.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1537178224139" expanded="true" signature="1085:1088" ph="..." />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dict/zh_en.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
@@ -704,14 +665,6 @@
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/train/人名.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_interface.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
@@ -722,24 +675,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/preprocess.py">
+    <entry file="file://$PROJECT_DIR$/feat/label_train.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feat/sent_train.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/represent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-511">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="240">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1537172478082" expanded="true" signature="696:830" ph="..." />
-            <marker date="1537172478082" expanded="true" signature="1600:1806" ph="..." />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/represent.py">
+    <entry file="file://$PROJECT_DIR$/eval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+            <marker date="1537178224139" expanded="true" signature="1085:1088" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1534498257149" expanded="true" signature="592:593" ph="..." />
+            <marker date="1534498257149" expanded="true" signature="638:639" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recognize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dict/pre_name.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/train/人名.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1537172478082" expanded="true" signature="696:830" ph="..." />
+            <marker date="1537172478082" expanded="true" signature="1600:1806" ph="..." />
           </folding>
         </state>
       </provider>
