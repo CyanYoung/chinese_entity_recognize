@@ -5,14 +5,14 @@ import re
 from util import load_word_re
 
 
-path_name = 'dict/name.txt'
+path_pre_name = 'dict/pre_name.txt'
 path_digit = 'dict/digit.txt'
-name_re = load_word_re(path_name)
+pre_name_re = load_word_re(path_pre_name)
 digit_re = load_word_re(path_digit)
 
 
-def include_name(word):
-    if re.findall(name_re, word):
+def include_pre_name(word):
+    if re.findall(pre_name_re, word):
         return True
     else:
         return False
@@ -33,7 +33,7 @@ def sent2feat(triples):
             'word': triple['word'],
             'len': len(triple['word']),
             'pos': triple['pos'],
-            'name': include_name(triple['word']),
+            'pre_name': include_pre_name(triple['word']),
             'digit': include_digit(triple['word'])
         }
         if i > 0:
@@ -42,7 +42,7 @@ def sent2feat(triples):
                 'last_word': last_triple['word'],
                 'last_len': len(last_triple['word']),
                 'last_pos': last_triple['pos'],
-                'last_name': include_name(last_triple['word']),
+                'last_pre_name': include_pre_name(last_triple['word']),
                 'last_digit': include_digit(last_triple['word'])
             })
         else:
@@ -53,7 +53,7 @@ def sent2feat(triples):
                 'next_word': next_triple['word'],
                 'next_len': len(next_triple['word']),
                 'next_pos': next_triple['pos'],
-                'next_name': include_name(next_triple['word']),
+                'next_pre_name': include_pre_name(next_triple['word']),
                 'next_digit': include_digit(next_triple['word'])
             })
         else:
