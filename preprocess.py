@@ -33,11 +33,11 @@ def add_entity(path_word, path_entity):
 
 path_train_dir = 'data/train'
 path_entity = 'dict/entity.txt'
-path_person = 'dict/person.txt'
+path_name = 'dict/name.txt'
 path_zh_en = 'dict/zh_en.csv'
 path_stop_word = 'dict/stop_word.txt'
 save_entity(path_train_dir, path_entity)
-add_entity(path_person, path_entity)
+add_entity(path_name, path_entity)
 jieba.load_userdict(path_entity)
 zh_en = load_pair(path_zh_en)
 stop_word_re = load_word_re(path_stop_word)
