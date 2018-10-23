@@ -24,7 +24,7 @@ parser.add_argument('-port', type=str, default=2020)
 args = parser.parse_args()
 
 path_log_dir = 'log'
-logger = get_logger('extract', path_log_dir)
+logger = get_logger('recognize', path_log_dir)
 
 
 def init_entity(slots):
