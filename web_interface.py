@@ -20,7 +20,7 @@ app = Flask(__name__)
 
 parser = ArgumentParser()
 parser.add_argument('-host', type=str, default='127.0.0.1')
-parser.add_argument('-port', type=str, default=2020)
+parser.add_argument('-port', type=str, default=2018)
 args = parser.parse_args()
 
 path_log_dir = 'log'
