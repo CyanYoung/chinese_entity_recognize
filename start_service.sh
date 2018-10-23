@@ -14,5 +14,5 @@ else
     then
         kill ${pid}
     fi
-    nohup python web_interface.py -host 172.17.0.12 -port 2020 >/dev/null 2>&1 &
+    nohup python web_interface.py -host 172.17.0.12 -port 2018 >/dev/null 2>&1 &
 fi
