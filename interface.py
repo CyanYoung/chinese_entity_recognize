@@ -20,7 +20,7 @@ app = Flask(__name__)
 
 parser = ArgumentParser()
 parser.add_argument('-host', type=str, default='127.0.0.1')
-parser.add_argument('-port', type=str, default=2018)
+parser.add_argument('-port', type=str, default=2000)
 args = parser.parse_args()
 
 path_log_dir = 'log'
@@ -44,9 +44,9 @@ def map_slot(word, pred):
 
 @app.route('/recognize', methods=['POST'])
 def response():
-    entitys = init_entity(slots)
     data = request.get_json()
     pairs = predict(data['content'])
+    entitys = init_entity(slots)
     fill_slots = list()
     for word, pred in pairs:
         if pred != 'O':
