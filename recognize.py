@@ -16,7 +16,7 @@ with open(path_crf, 'rb') as f:
     crf = pk.load(f)
 
 
-def restore_word(triples):
+def restore(triples):
     words = list()
     for triple in triples:
         words.append(triple['word'])
@@ -26,7 +26,7 @@ def restore_word(triples):
 def predict(text):
     text = re.sub(stop_word_re, '', text.strip())
     triples = label_word(text, [], '')
-    words = restore_word(triples)
+    words = restore(triples)
     sent_feat = sent2feat(triples)
     preds = crf.predict([sent_feat])[0]
     pairs = list()
