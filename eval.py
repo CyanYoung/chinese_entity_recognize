@@ -5,9 +5,12 @@ from sklearn_crfsuite.metrics import flat_accuracy_score
 from recognize import predict
 
 
-def test(path):
-    with open(path, 'r') as f:
-        sents = json.load(f)
+path_test = 'data/test.json'
+with open(path_test, 'r') as f:
+    sents = json.load(f)
+
+
+def test(sents):
     label_mat, pred_mat = list(), list()
     error_mat = dict()
     for text, triples in sents.items():
@@ -33,5 +36,4 @@ def test(path):
 
 
 if __name__ == '__main__':
-    path = 'data/test.json'
-    test(path)
+    test(sents)
