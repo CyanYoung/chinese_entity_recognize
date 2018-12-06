@@ -8,7 +8,8 @@ from recognize import predict
 def test(path):
     with open(path, 'r') as f:
         sents = json.load(f)
-    label_mat, pred_mat, error_mat = list(), list(), dict()
+    label_mat, pred_mat = list(), list()
+    error_mat = dict()
     for text, triples in sents.items():
         labels, errors = list(), list()
         for triple in triples:
