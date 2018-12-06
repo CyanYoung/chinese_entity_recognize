@@ -72,8 +72,7 @@ def sent2label(triples):
 def featurize(path_train, path_sent, path_label):
     with open(path_train, 'r') as f:
         sents = json.load(f)
-    sent_feats = list()
-    labels = list()
+    sent_feats, labels = list(), list()
     for triples in sents.values():
         sent_feats.append(sent2feat(triples))
         labels.append(sent2label(triples))
