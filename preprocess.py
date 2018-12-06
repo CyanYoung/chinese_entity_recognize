@@ -4,6 +4,7 @@ import json
 import pandas as pd
 
 import re
+
 import jieba
 from jieba.posseg import cut as pos_cut
 
@@ -14,7 +15,7 @@ def save_entity(path_train_dir, path_entity):
     entity_set = set()
     files = os.listdir(path_train_dir)
     for file in files:
-        entity_strs = pd.read_csv(os.path.join(path_train_dir, file), usecols=[1]).values
+        entity_strs = pd.read_csv(os.path.join(path_train_dir, file), usecols=['entity']).values
         for entity_str in entity_strs:
             entitys = entity_str[0].strip().split()
             for entity in entitys:
@@ -46,10 +47,10 @@ stop_word_re = load_word_re(path_stop_word)
 def label_word(text, entitys, label):
     triples = list()
     pairs = list(pos_cut(text))
-    for pair in pairs:
+    for word, pos in pairs:
         triple = dict()
-        triple['word'] = list(pair)[0]
-        triple['pos'] = list(pair)[1]
+        triple['word'] = word
+        triple['pos'] = pos
         if triple['word'] in entitys:
             triple['label'] = label
         else:
