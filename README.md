@@ -2,11 +2,9 @@
 
 #### 1.preprocess
 
-prepare() 将按类文件保存的训练和测试数据汇总、合并
+prepare() 将按类文件保存的数据汇总、合并，add_entity() 添加自定义的实体
 
-save_entity() 提取训练数据中的实体，add_entity() 添加自定义的实体
-
-jieba.load_userdict() 保证已有实体不被切分
+save_entity() 提取训练数据中的实体，jieba.load_userdict() 保证已有实体不被切分
 
 每句处理为 (word, pos, label) 的三元组，保存为 text 索引的字典
 
