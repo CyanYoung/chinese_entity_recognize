@@ -14,12 +14,15 @@ from sklearn.metrics import make_scorer
 
 min_freq = 1
 
+path_sent = 'feat/sent_train.json'
+path_label = 'feat/label_train.json'
+with open(path_sent, 'r') as f:
+    sent_feats = json.load(f)
+with open(path_label, 'r') as f:
+    labels = json.load(f)
 
-def fit(path_sent, path_label, path_crf):
-    with open(path_sent, 'r') as f:
-        sent_feats = json.load(f)
-    with open(path_label, 'r') as f:
-        labels = json.load(f)
+
+def fit(sent_feats, labels, path_crf):
     sents_labels = list(zip(sent_feats, labels))
     shuffle(sents_labels)
     sent_feats, labels = zip(*sents_labels)
@@ -37,7 +40,5 @@ def fit(path_sent, path_label, path_crf):
 
 
 if __name__ == '__main__':
-    path_sent = 'feat/sent_train.json'
-    path_label = 'feat/label_train.json'
     path_crf = 'model/crf.pkl'
-    fit(path_sent, path_label, path_crf)
+    fit(sent_feats, labels, path_crf)
