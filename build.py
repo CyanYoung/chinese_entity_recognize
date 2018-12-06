@@ -8,8 +8,8 @@ from scipy.stats import expon
 from sklearn_crfsuite import CRF
 from sklearn.model_selection import RandomizedSearchCV
 
-from sklearn_crfsuite.metrics import flat_accuracy_score
 from sklearn.metrics import make_scorer
+from sklearn_crfsuite.metrics import flat_accuracy_score
 
 
 min_freq = 1
