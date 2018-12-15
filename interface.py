@@ -6,13 +6,11 @@ from argparse import ArgumentParser
 
 from recognize import predict
 
-from util import load_word, load_pair, load_triple, get_logger
+from util import load_pair, load_triple, get_logger
 
 
-path_slot = 'dict/slot.txt'
 path_zh_en = 'dict/zh_en.csv'
 path_label_key_slot = 'dict/label_key_slot.csv'
-slots = load_word(path_slot)
 zh_en = load_pair(path_zh_en)
 label_key_slot = load_triple(path_label_key_slot)
 
@@ -27,13 +25,6 @@ path_log_dir = 'log'
 logger = get_logger('recognize', path_log_dir)
 
 
-def init_entity(slots):
-    entitys = dict()
-    for slot in slots:
-        entitys[slot] = list()
-    return entitys
-
-
 def map_slot(word, pred):
     for label, key, slot in label_key_slot:
         if pred == label:
@@ -42,19 +33,27 @@ def map_slot(word, pred):
     return pred
 
 
+def make_dict(entitys, slots):
+    slot_dict = dict()
+    for slot, entity in zip(slots, entitys):
+        if slot not in slot_dict:
+            slot_dict[slot] = list()
+        slot_dict[slot].append(entity)
+    return slot_dict
+
+
 @app.route('/recognize', methods=['POST'])
 def response():
     data = request.get_json()
     pairs = predict(data['content'])
-    entitys = init_entity(slots)
-    fill_slots = list()
+    entitys, slots = list(), list()
     for word, pred in pairs:
         if pred != 'O':
+            entitys.append(word)
             slot = map_slot(word, zh_en[pred])
-            fill_slots.append(slot)
-            entitys[slot].append(word)
-    data['intent'] = '_'.join(fill_slots)
-    data['entity'] = entitys
+            slots.append(slot)
+    slot_dict = make_dict(entitys, slots)
+    data['slot'] = slot_dict
     data_str = json.dumps(data, ensure_ascii=False)
     logger.info(data_str)
     return data_str
