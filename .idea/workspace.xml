@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31c0534f-f5f5-4873-8d0b-1c31ec75fa55" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.py" beforeDir="false" afterPath="$PROJECT_DIR$/build.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dict/entity.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dict/entity.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/crf.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/model/crf.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+            <state relative-caret-position="240">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
                 <marker date="1544960221999" expanded="true" signature="1133:1136" ph="..." />
@@ -106,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/start_service.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="180">
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -374,12 +371,12 @@
       <option name="presentableId" value="Default" />
       <updated>1533802450663</updated>
       <workItem from="1544862006465" duration="1004000" />
-      <workItem from="1544953200483" duration="2626000" />
+      <workItem from="1544953200483" duration="3137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3630000" />
+    <option name="totallyTimeSpent" value="4141000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -392,8 +389,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -405,7 +403,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3288948" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32756326" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32756326" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32756326" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
@@ -544,13 +542,6 @@
     <entry file="file://$PROJECT_DIR$/data/test.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dict/entity.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -624,17 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1544960221999" expanded="true" signature="1133:1136" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recognize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -668,8 +648,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/start_service.sh">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dict/entity.txt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1544960221999" expanded="true" signature="1133:1136" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
