@@ -22,7 +22,7 @@ restore() 从 triple 中提取 word，predict() 每句返回 (word, pred) 的二
 
 #### 5.interface
 
-map_slot() 通过关键字将标准类映射为业务槽，适应需求变化
+map_slot() 将标准类映射为业务槽，response() 返回 json 字符串
 
 每次启动生成新的日志文件、以时间命名，避免被新上传的程序覆盖
 
