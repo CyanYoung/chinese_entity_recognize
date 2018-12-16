@@ -34,7 +34,7 @@ def fit(sent_feats, labels, path_crf):
     crf_rs = RandomizedSearchCV(crf, params, cv=10, n_iter=100, scoring=flat_acc)
     crf_rs.fit(sent_feats, labels)
     with open(path_crf, 'wb') as f:
-        pk.dump(crf, f)
+        pk.dump(crf_rs, f)
     if __name__ == '__main__':
         print(crf_rs.best_params_)
 
