@@ -77,7 +77,7 @@ def list2dict(word_mat, tag_mat, label_mat):
             triple['word'] = word
             triple['pos'] = tag
             triple['label'] = label
-            triples.append(triples)
+            triples.append(triple)
         sents[text] = triples
     return sents
 
@@ -183,7 +183,6 @@ def prepare(paths):
     sent1s = generate(temps, slots, num=5000)
     sent2s = label_sent(paths['extra'])
     sents = dict(sent1s, **sent2s)
-    save(paths['train'], sents)
     train_sents, test_sents = split(sents)
     save(paths['train'], train_sents)
     save(paths['test'], test_sents)
