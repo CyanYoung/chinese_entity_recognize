@@ -108,8 +108,9 @@ def generate(temps, slots, num):
                 labels.append(part)
             else:
                 word = select(part)
-                words.append(word)
-                labels.append('O')
+                if word:
+                    words.append(word)
+                    labels.append('O')
         word_mat.append(words)
         label_mat.append(labels)
     return word_mat, label_mat
