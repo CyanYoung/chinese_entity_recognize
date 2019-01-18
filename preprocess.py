@@ -23,8 +23,17 @@ homo_dict = load_poly(path_homo)
 syno_dict = load_poly(path_syno)
 
 
-def merge(path_slot_dir, path_extra, path_cut_word):
-    entitys = list()
+def make_name(pre_names, end_names, num):
+    names = list()
+    for i in range(num):
+        pre_name = choice(pre_names)
+        end_name = choice(end_names)
+        names.append(pre_name + end_name)
+    return names
+
+
+def merge(names, path_slot_dir, path_extra, path_cut_word):
+    entitys = names
     files = os.listdir(path_slot_dir)
     for file in files:
         words = load_word(os.path.join(path_slot_dir, file))
@@ -42,15 +51,6 @@ def merge(path_slot_dir, path_extra, path_cut_word):
 def save(path, sents):
     with open(path, 'w') as f:
         json.dump(sents, f, ensure_ascii=False, indent=4)
-
-
-def make_name(pre_names, end_names, num):
-    names = list()
-    for i in range(num):
-        pre_name = choice(pre_names)
-        end_name = choice(end_names)
-        names.append(pre_name + end_name)
-    return names
 
 
 def dict2list(sents):
@@ -99,25 +99,39 @@ def select(part):
         return part
 
 
+def check(pairs, entitys, labels):
+    triples = list()
+    for word, tag in pairs:
+        triple = dict()
+        triple['word'] = word
+        triple['pos'] = tag
+        if word in entitys:
+            ind = entitys.index(word)
+            triple['label'] = labels[ind]
+        else:
+            triple['label'] = 'O'
+        triples.append(triple)
+    return triples
+
+
 def generate(temps, slots, num):
-    word_mat, tag_mat, label_mat = list(), list(), list()
+    sents = dict()
     for i in range(num):
         parts = choice(temps)
-        words, labels = list(), list()
+        text, entitys, labels = '', list(), list()
         for part in parts:
             if part in slots:
                 entity = choice(slots[part])
-                words.append(entity)
+                text = text + entity
+                entitys.append(entity)
                 labels.append(part)
             else:
                 word = select(part)
-                if word:
-                    words.append(word)
-                    labels.append('O')
-
-        word_mat.append(words)
-        label_mat.append(labels)
-    return word_mat, tag_mat, label_mat
+                text = text + word
+        pairs = list(pos_cut(text))
+        triples = check(pairs, entitys, labels)
+        sents[text] = triples
+    return sents
 
 
 def sync_shuffle(list1, list2, list3):
@@ -134,27 +148,13 @@ def label_sent(path):
         if len(entitys) != len(labels):
             print('skip: %s', text)
             continue
-        triples = list()
-        for word, tag in pairs:
-            triple = dict()
-            triple['word'] = word
-            triple['pos'] = tag
-            if word in entitys:
-                ind = entitys.index(word)
-                triple['label'] = labels[ind]
-            else:
-                triple['label'] = 'O'
-            triples.append(triple)
+        triples = check(pairs, entitys, labels)
         sents[text] = triples
     return sents
 
 
-def expand(sents, gen_mats):
-    gen_word_mat, gen_tag_mat, gen_label_mat = gen_mats
+def split(sents):
     word_mat, tag_mat, label_mat = dict2list(sents)
-    word_mat.extend(gen_word_mat)
-    tag_mat.extend(gen_tag_mat)
-    label_mat.extend(gen_label_mat)
     word_mat, tag_mat, label_mat = sync_shuffle(word_mat, tag_mat, label_mat)
     bound = int(len(word_mat) * 0.9)
     train_sents = list2dict(word_mat[:bound], tag_mat[:bound], label_mat[:bound])
@@ -163,7 +163,8 @@ def expand(sents, gen_mats):
 
 
 def prepare(paths):
-    merge(paths['slot_dir'], paths['extra'], paths['cut_word'])
+    names = make_name(pre_names, end_names, num=1000)
+    merge(names, paths['slot_dir'], paths['extra'], paths['cut_word'])
     jieba.load_userdict(paths['cut_word'])
     temps = list()
     with open(paths['temp'], 'r') as f:
@@ -178,11 +179,12 @@ def prepare(paths):
         with open(os.path.join(paths['slot_dir'], file), 'r') as f:
             for line in f:
                 slots[label].append(line.strip())
-    names = make_name(pre_names, end_names, num=1000)
     slots['PER'].extend(names)
-    gen_mats = generate(temps, slots, num=5000)
-    sents = label_sent(paths['extra'])
-    train_sents, test_sents = expand(sents, gen_mats)
+    sent1s = generate(temps, slots, num=5000)
+    sent2s = label_sent(paths['extra'])
+    sents = dict(sent1s, **sent2s)
+    save(paths['train'], sents)
+    train_sents, test_sents = split(sents)
     save(paths['train'], train_sents)
     save(paths['test'], test_sents)
 
