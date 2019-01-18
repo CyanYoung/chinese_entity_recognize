@@ -1,0 +1,60 @@
+PER
+PER POS
+PER TYP
+PER POS TYP
+POS
+POS TYP
+ORG
+ORG PER
+ORG PER POS
+ORG PER TYP
+ORG PER POS TYP
+ORG POS
+ORG POS TYP
+ORG TYP
+TYP
+(我) [要] PER
+(我) [要] PER POS
+(我) [要] PER TYP
+(我) [要] PER POS TYP
+(我) [要] POS
+(我) [要] POS TYP
+(我) [要] ORG
+(我) [要] ORG PER
+(我) [要] ORG PER POS
+(我) [要] ORG PER TYP
+(我) [要] ORG PER POS TYP
+(我) [要] ORG POS
+(我) [要] ORG POS TYP
+(我) [要] ORG TYP
+(我) [要] TYP
+PER (的) [电话]
+PER POS (的) [电话]
+PER TYP (的) [电话]
+PER POS TYP (的) [电话]
+POS (的) [电话]
+POS TYP (的) [电话]
+ORG (的) [电话]
+ORG PER (的) [电话]
+ORG PER POS (的) [电话]
+ORG PER TYP (的) [电话]
+ORG PER POS TYP (的) [电话]
+ORG POS (的) [电话]
+ORG POS TYP (的) [电话]
+ORG TYP (的) [电话]
+TYP (的) [电话]
+(我) [要] PER (的) [电话]
+(我) [要] PER POS (的) [电话]
+(我) [要] PER TYP (的) [电话]
+(我) [要] PER POS TYP (的) [电话]
+(我) [要] POS (的) [电话]
+(我) [要] POS TYP (的) [电话]
+(我) [要] ORG (的) [电话]
+(我) [要] ORG PER (的) [电话]
+(我) [要] ORG PER POS (的) [电话]
+(我) [要] ORG PER TYP (的) [电话]
+(我) [要] ORG PER POS TYP (的) [电话]
+(我) [要] ORG POS (的) [电话]
+(我) [要] ORG POS TYP (的) [电话]
+(我) [要] ORG TYP (的) [电话]
+(我) [要] TYP (的) [电话]

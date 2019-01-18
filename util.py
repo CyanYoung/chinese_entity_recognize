@@ -30,11 +30,22 @@ def load_pair(path):
     return vocab
 
 
-def load_triple(path):
-    triples = list()
-    for field1, field2, field3 in pd.read_csv(path).values:
-        triples.append((field1, field2, field3))
-    return triples
+def load_poly(path):
+    vocab = dict()
+    for word, cand_str in pd.read_csv(path).values:
+        if word not in vocab:
+            vocab[word] = set()
+        cands = cand_str.split('/')
+        vocab[word].update(cands)
+    return vocab
+
+
+def flat_read(path, field):
+    nest_items = pd.read_csv(path, usecols=[field], keep_default_na=False).values
+    items = list()
+    for nest_item in nest_items:
+        items.append(nest_item[0])
+    return items
 
 
 def get_logger(name, path_dir):

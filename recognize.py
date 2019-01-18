@@ -1,17 +1,11 @@
 import pickle as pk
 
-import re
-
-from util import load_word_re
-
 from preprocess import label_word
 
 from represent import sent2feat
 
 
-path_stop_word = 'dict/stop_word.txt'
 path_crf = 'model/crf.pkl'
-stop_word_re = load_word_re(path_stop_word)
 with open(path_crf, 'rb') as f:
     crf = pk.load(f)
 
@@ -24,7 +18,7 @@ def restore(triples):
 
 
 def predict(text):
-    text = re.sub(stop_word_re, '', text.strip())
+    text = text.strip()
     triples = label_word(text, [], '')
     words = restore(triples)
     sent_feat = sent2feat(triples)

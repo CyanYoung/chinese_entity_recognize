@@ -1,0 +1,9 @@
+text,entity,label
+我查陈芳的电话,陈芳,PER
+我找宣传部的李明,宣传部 李明,ORG PER
+帮我转接到二营,二营,ORG
+我找一连张伟,一连 张伟,ORG PER
+党委办公室的电话是多少,党委 办公室,ORG TYP
+我找刘营长,刘 营长,PER POS
+三排杨勇的手机号码是多少,三排 杨勇 手机,ORG PER TYP
+我查一团王团长的办公室电话,一团 王 团长 办公室,ORG PER POS TYP

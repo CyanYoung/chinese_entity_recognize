@@ -1,386 +1,9197 @@
 {
-    "我想找宣传部的李明": [
+    "程刚排长": [
         {
-            "word": "我",
-            "pos": "r",
-            "label": "O"
+            "word": "程刚",
+            "label": "PER"
         },
         {
-            "word": "想",
-            "pos": "v",
-            "label": "O"
+            "word": "排长",
+            "label": "POS"
+        }
+    ],
+    "魏雷办公室": [
+        {
+            "word": "魏雷",
+            "label": "PER"
         },
         {
-            "word": "找",
-            "pos": "v",
-            "label": "O"
-        },
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "一班魏玉梅营长手机": [
         {
-            "word": "宣传部",
-            "pos": "nr",
+            "word": "一班",
             "label": "ORG"
+        },
+        {
+            "word": "魏玉梅",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "查尹勇连长手机的电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "尹勇",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
         },
         {
             "word": "的",
-            "pos": "uj",
             "label": "O"
         },
         {
-            "word": "李明",
-            "pos": "x",
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "想要二团邹利": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "二团",
+            "label": "ORG"
+        },
+        {
+            "word": "邹利",
             "label": "PER"
         }
     ],
-    "帮我转接到二营": [
+    "查范东团长办公室": [
         {
-            "word": "帮",
-            "pos": "v",
+            "word": "",
             "label": "O"
         },
         {
-            "word": "我",
-            "pos": "r",
+            "word": "查",
             "label": "O"
         },
         {
-            "word": "转接",
-            "pos": "v",
-            "label": "O"
+            "word": "范东",
+            "label": "PER"
         },
         {
-            "word": "到",
-            "pos": "v",
-            "label": "O"
+            "word": "团长",
+            "label": "POS"
         },
         {
-            "word": "二营",
-            "pos": "x",
-            "label": "ORG"
+            "word": "办公室",
+            "label": "TYP"
         }
     ],
-    "我找一连张伟": [
+    "一排毛红梅排长手机": [
         {
-            "word": "我",
-            "pos": "r",
+            "word": "一排",
+            "label": "ORG"
+        },
+        {
+            "word": "毛红梅",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "找一连郑欢团长": [
+        {
+            "word": "",
             "label": "O"
         },
         {
             "word": "找",
-            "pos": "v",
             "label": "O"
         },
         {
             "word": "一连",
-            "pos": "d",
             "label": "ORG"
         },
         {
-            "word": "张伟",
-            "pos": "x",
-            "label": "PER"
-        }
-    ],
-    "党委的王丽怎么联系": [
-        {
-            "word": "党委",
-            "pos": "j",
-            "label": "ORG"
-        },
-        {
-            "word": "的",
-            "pos": "uj",
-            "label": "O"
-        },
-        {
-            "word": "王丽",
-            "pos": "x",
+            "word": "郑欢",
             "label": "PER"
         },
         {
-            "word": "怎么",
-            "pos": "r",
-            "label": "O"
-        },
-        {
-            "word": "联系",
-            "pos": "n",
-            "label": "O"
+            "word": "团长",
+            "label": "POS"
         }
     ],
-    "我找团委的刘军": [
+    "我想要班长": [
         {
             "word": "我",
-            "pos": "r",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        }
+    ],
+    "我找一营连长": [
+        {
+            "word": "我",
             "label": "O"
         },
         {
             "word": "找",
-            "pos": "v",
             "label": "O"
         },
         {
-            "word": "团委",
-            "pos": "n",
+            "word": "一营",
             "label": "ORG"
         },
         {
-            "word": "的",
-            "pos": "uj",
-            "label": "O"
-        },
-        {
-            "word": "刘军",
-            "pos": "x",
-            "label": "PER"
+            "word": "连长",
+            "label": "POS"
         }
     ],
-    "三排杨勇的号码是多少": [
+    "魏瑞排长手机": [
         {
-            "word": "三排",
-            "pos": "m",
+            "word": "魏瑞",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "想要三团吴英的电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "三团",
             "label": "ORG"
         },
         {
-            "word": "杨勇",
-            "pos": "x",
+            "word": "吴英",
             "label": "PER"
         },
         {
             "word": "的",
-            "pos": "uj",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "连长": [
+        {
+            "word": "连长",
+            "label": "POS"
+        }
+    ],
+    "马淑珍办公室的号码": [
+        {
+            "word": "马淑珍",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
             "label": "O"
         },
         {
             "word": "号码",
-            "pos": "n",
-            "label": "O"
-        },
-        {
-            "word": "是",
-            "pos": "v",
-            "label": "O"
-        },
-        {
-            "word": "多少",
-            "pos": "m",
             "label": "O"
         }
     ],
-    "帮我转接到李强": [
-        {
-            "word": "帮",
-            "pos": "v",
-            "label": "O"
-        },
+    "我想要一团办公室": [
         {
             "word": "我",
-            "pos": "r",
             "label": "O"
         },
         {
-            "word": "转接",
-            "pos": "v",
+            "word": "想要",
             "label": "O"
         },
         {
-            "word": "到",
-            "pos": "v",
-            "label": "O"
+            "word": "一团",
+            "label": "ORG"
         },
         {
-            "word": "李强",
-            "pos": "nrfg",
-            "label": "PER"
+            "word": "办公室",
+            "label": "TYP"
         }
     ],
-    "我找陈芳": [
+    "我要三营办公室": [
         {
             "word": "我",
-            "pos": "r",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我找一团办公室": [
+        {
+            "word": "我",
             "label": "O"
         },
         {
             "word": "找",
-            "pos": "v",
             "label": "O"
         },
         {
-            "word": "陈芳",
-            "pos": "x",
-            "label": "PER"
+            "word": "一团",
+            "label": "ORG"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
         }
     ],
-    "李刚的电话是多少": [
+    "要三营吴兵连长手机": [
         {
-            "word": "李刚",
-            "pos": "x",
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "吴兵",
             "label": "PER"
         },
         {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "手机": [
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "查汪小红营长电话号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "汪小红",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "高建国班长的电话号码": [
+        {
+            "word": "高建国",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
             "word": "的",
-            "pos": "uj",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "想要二连谭利办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "二连",
+            "label": "ORG"
+        },
+        {
+            "word": "谭利",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "黄明连长电话": [
+        {
+            "word": "黄明",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "",
             "label": "O"
         },
         {
             "word": "电话",
-            "pos": "n",
-            "label": "O"
-        },
-        {
-            "word": "是",
-            "pos": "v",
-            "label": "O"
-        },
-        {
-            "word": "多少",
-            "pos": "m",
             "label": "O"
         }
     ],
-    "我从北京去上海": [
+    "三营连长电话号": [
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "找三连邹淑兰班长办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "三连",
+            "label": "ORG"
+        },
+        {
+            "word": "邹淑兰",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我找二团熊红霞的电话号码": [
         {
             "word": "我",
-            "pos": "r",
             "label": "O"
         },
         {
-            "word": "从",
-            "pos": "p",
+            "word": "找",
             "label": "O"
         },
         {
-            "word": "北京",
-            "pos": "ns",
-            "label": "LOC"
+            "word": "二团",
+            "label": "ORG"
         },
         {
-            "word": "去",
-            "pos": "v",
-            "label": "O"
-        },
-        {
-            "word": "上海",
-            "pos": "ns",
-            "label": "LOC"
-        }
-    ],
-    "杭州的天气怎么样": [
-        {
-            "word": "杭州",
-            "pos": "ns",
-            "label": "LOC"
+            "word": "熊红霞",
+            "label": "PER"
         },
         {
             "word": "的",
-            "pos": "uj",
             "label": "O"
         },
         {
-            "word": "天气",
-            "pos": "n",
-            "label": "O"
-        },
-        {
-            "word": "怎么样",
-            "pos": "r",
+            "word": "电话号码",
             "label": "O"
         }
     ],
-    "你在海淀吗": [
+    "三团于璐排长的电话": [
         {
-            "word": "你",
-            "pos": "r",
+            "word": "三团",
+            "label": "ORG"
+        },
+        {
+            "word": "于璐",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
             "label": "O"
         },
         {
-            "word": "在",
-            "pos": "p",
-            "label": "O"
-        },
-        {
-            "word": "海淀",
-            "pos": "ns",
-            "label": "LOC"
-        },
-        {
-            "word": "吗",
-            "pos": "y",
+            "word": "电话",
             "label": "O"
         }
     ],
-    "到香港要经过深圳": [
+    "要周海燕营长的电话号": [
         {
-            "word": "到",
-            "pos": "v",
+            "word": "",
             "label": "O"
-        },
-        {
-            "word": "香港",
-            "pos": "ns",
-            "label": "LOC"
         },
         {
             "word": "要",
-            "pos": "v",
             "label": "O"
         },
         {
-            "word": "经过",
-            "pos": "p",
+            "word": "周海燕",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
             "label": "O"
         },
         {
-            "word": "深圳",
-            "pos": "ns",
-            "label": "LOC"
+            "word": "电话号",
+            "label": "O"
         }
     ],
-    "我住朝阳": [
+    "查魏刚办公室": [
         {
-            "word": "我",
-            "pos": "r",
+            "word": "",
             "label": "O"
         },
         {
-            "word": "住",
-            "pos": "v",
+            "word": "查",
             "label": "O"
         },
         {
-            "word": "朝阳",
-            "pos": "ns",
-            "label": "LOC"
+            "word": "魏刚",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
         }
     ],
-    "我在昌平待过一年": [
+    "一连赖建平排长号码": [
+        {
+            "word": "一连",
+            "label": "ORG"
+        },
+        {
+            "word": "赖建平",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "找三团手机号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "三团",
+            "label": "ORG"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "找三排曹利班长办公室电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "三排",
+            "label": "ORG"
+        },
+        {
+            "word": "曹利",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "排长的号码": [
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "汤勇连长手机": [
+        {
+            "word": "汤勇",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "三班营长的电话号码": [
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "查尹海燕": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "尹海燕",
+            "label": "PER"
+        }
+    ],
+    "班长手机": [
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "我想要何柳连长办公室号码": [
         {
             "word": "我",
-            "pos": "r",
             "label": "O"
         },
         {
-            "word": "在",
-            "pos": "p",
+            "word": "想要",
             "label": "O"
         },
         {
-            "word": "昌平",
-            "pos": "nr",
-            "label": "LOC"
+            "word": "何柳",
+            "label": "PER"
         },
         {
-            "word": "待",
-            "pos": "v",
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
             "label": "O"
         },
         {
-            "word": "过",
-            "pos": "ug",
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "找团长的电话": [
+        {
+            "word": "",
             "label": "O"
         },
         {
-            "word": "一年",
-            "pos": "m",
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我查手机": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "我想要武霞手机": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "武霞",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "二团谭丹丹": [
+        {
+            "word": "二团",
+            "label": "ORG"
+        },
+        {
+            "word": "谭丹丹",
+            "label": "PER"
+        }
+    ],
+    "我想要胡瑜的电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "胡瑜",
+            "label": "PER"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "三排团长的号码": [
+        {
+            "word": "三排",
+            "label": "ORG"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "想要排长": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        }
+    ],
+    "查三团办公室的号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "三团",
+            "label": "ORG"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "我想要手机电话号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "一连": [
+        {
+            "word": "一连",
+            "label": "ORG"
+        }
+    ],
+    "找钟帆连长的电话": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "钟帆",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "任春梅排长电话号码": [
+        {
+            "word": "任春梅",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "查李玉华营长电话号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "李玉华",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "我想要姜明": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "姜明",
+            "label": "PER"
+        }
+    ],
+    "查龚瑜排长号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "龚瑜",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "找排长办公室的电话号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "排长电话号": [
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "我要班长": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        }
+    ],
+    "我要营长": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        }
+    ],
+    "孟莹手机": [
+        {
+            "word": "孟莹",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "要王倩班长办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "王倩",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我找一连曹琴班长手机": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "一连",
+            "label": "ORG"
+        },
+        {
+            "word": "曹琴",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "找一班营长手机": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "一班",
+            "label": "ORG"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "查孔明班长办公室电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "孔明",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "查办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "黄欣手机": [
+        {
+            "word": "黄欣",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "二团张瑜办公室": [
+        {
+            "word": "二团",
+            "label": "ORG"
+        },
+        {
+            "word": "张瑜",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "三营郑博营长": [
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "郑博",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        }
+    ],
+    "我要三班班长手机电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我想要二连侯淑兰团长手机": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "二连",
+            "label": "ORG"
+        },
+        {
+            "word": "侯淑兰",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "二连团长办公室电话号码": [
+        {
+            "word": "二连",
+            "label": "ORG"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "我查蒋璐手机": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "蒋璐",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "我查尹海燕手机": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "尹海燕",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "一班": [
+        {
+            "word": "一班",
+            "label": "ORG"
+        }
+    ],
+    "二连连长": [
+        {
+            "word": "二连",
+            "label": "ORG"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        }
+    ],
+    "找常旭连长办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "常旭",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "三营熊平": [
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "熊平",
+            "label": "PER"
+        }
+    ],
+    "黎敏电话": [
+        {
+            "word": "黎敏",
+            "label": "PER"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "二营冯淑华办公室": [
+        {
+            "word": "二营",
+            "label": "ORG"
+        },
+        {
+            "word": "冯淑华",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "二团号码": [
+        {
+            "word": "二团",
+            "label": "ORG"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "一营": [
+        {
+            "word": "一营",
+            "label": "ORG"
+        }
+    ],
+    "三连的电话号码": [
+        {
+            "word": "三连",
+            "label": "ORG"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "团长电话号": [
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "我想要办公室的电话号": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "我找魏雷连长办公室电话号": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "魏雷",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "我查梁凤兰办公室": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "梁凤兰",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "文俊排长办公室": [
+        {
+            "word": "文俊",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我查三连排长": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "三连",
+            "label": "ORG"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        }
+    ],
+    "班长办公室": [
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "找一班李彬办公室号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "一班",
+            "label": "ORG"
+        },
+        {
+            "word": "李彬",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "查钟涛电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "钟涛",
+            "label": "PER"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "阎桂兰连长": [
+        {
+            "word": "阎桂兰",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        }
+    ],
+    "我要手机": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "我查董阳": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "董阳",
+            "label": "PER"
+        }
+    ],
+    "要高秀梅班长": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "高秀梅",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        }
+    ],
+    "查三营王桂珍连长办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "王桂珍",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "团长电话": [
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "二团叶欢班长的号码": [
+        {
+            "word": "二团",
+            "label": "ORG"
+        },
+        {
+            "word": "叶欢",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "常莉": [
+        {
+            "word": "常莉",
+            "label": "PER"
+        }
+    ],
+    "二连丁红营长电话": [
+        {
+            "word": "二连",
+            "label": "ORG"
+        },
+        {
+            "word": "丁红",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "找连长办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "找三班方红霞办公室的号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "方红霞",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "蔡桂芝班长办公室电话": [
+        {
+            "word": "蔡桂芝",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "找二班钱桂香手机的号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "二班",
+            "label": "ORG"
+        },
+        {
+            "word": "钱桂香",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "我找排长的电话号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "三连魏秀珍营长": [
+        {
+            "word": "三连",
+            "label": "ORG"
+        },
+        {
+            "word": "魏秀珍",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        }
+    ],
+    "找贺晶连长": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "贺晶",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        }
+    ],
+    "一排团长的电话号": [
+        {
+            "word": "一排",
+            "label": "ORG"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "要一营手机的号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "一营",
+            "label": "ORG"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "找一排沈秀云排长的电话": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "一排",
+            "label": "ORG"
+        },
+        {
+            "word": "沈秀云",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "尹倩": [
+        {
+            "word": "尹倩",
+            "label": "PER"
+        }
+    ],
+    "我想要二团团长": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "二团",
+            "label": "ORG"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        }
+    ],
+    "想要三连连长": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "三连",
+            "label": "ORG"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        }
+    ],
+    "查一连易楠手机": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "一连",
+            "label": "ORG"
+        },
+        {
+            "word": "易楠",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "一连排长手机": [
+        {
+            "word": "一连",
+            "label": "ORG"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "我查三连的电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "三连",
+            "label": "ORG"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "方娟营长手机电话": [
+        {
+            "word": "方娟",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "三连毛坤连长手机的电话号": [
+        {
+            "word": "三连",
+            "label": "ORG"
+        },
+        {
+            "word": "毛坤",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "想要一营手机": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "一营",
+            "label": "ORG"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "我要二连手机": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "二连",
+            "label": "ORG"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "要一排排长的电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "一排",
+            "label": "ORG"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "要一团连长的电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "一团",
+            "label": "ORG"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "二团罗帅": [
+        {
+            "word": "二团",
+            "label": "ORG"
+        },
+        {
+            "word": "罗帅",
+            "label": "PER"
+        }
+    ],
+    "三团": [
+        {
+            "word": "三团",
+            "label": "ORG"
+        }
+    ],
+    "一班常洁连长电话": [
+        {
+            "word": "一班",
+            "label": "ORG"
+        },
+        {
+            "word": "常洁",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我查三班万倩手机的电话号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "万倩",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "三连连长手机": [
+        {
+            "word": "三连",
+            "label": "ORG"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "想要一班武利班长手机的电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "一班",
+            "label": "ORG"
+        },
+        {
+            "word": "武利",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "一排崔淑华手机的电话号": [
+        {
+            "word": "一排",
+            "label": "ORG"
+        },
+        {
+            "word": "崔淑华",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "一排杜桂芝办公室电话号码": [
+        {
+            "word": "一排",
+            "label": "ORG"
+        },
+        {
+            "word": "杜桂芝",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "办公室": [
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "二营团长电话号": [
+        {
+            "word": "二营",
+            "label": "ORG"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "查排长的电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "三排白帅连长办公室": [
+        {
+            "word": "三排",
+            "label": "ORG"
+        },
+        {
+            "word": "白帅",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我要二连办公室": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "二连",
+            "label": "ORG"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "三班号码": [
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "查二班班长": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "二班",
+            "label": "ORG"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        }
+    ],
+    "我要二排文俊的号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "二排",
+            "label": "ORG"
+        },
+        {
+            "word": "文俊",
+            "label": "PER"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "要二连办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "二连",
+            "label": "ORG"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我找三班钟丽娟": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "钟丽娟",
+            "label": "PER"
+        }
+    ],
+    "我要范龙": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "范龙",
+            "label": "PER"
+        }
+    ],
+    "我找一团营长电话号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "一团",
+            "label": "ORG"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "我找常莉手机": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "常莉",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "一团吕瑜排长手机": [
+        {
+            "word": "一团",
+            "label": "ORG"
+        },
+        {
+            "word": "吕瑜",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "范凤兰办公室": [
+        {
+            "word": "范凤兰",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "曹欢连长手机": [
+        {
+            "word": "曹欢",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "营长办公室电话号": [
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "陆想班长手机": [
+        {
+            "word": "陆想",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "三营班长办公室的电话号码": [
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "文洁": [
+        {
+            "word": "文洁",
+            "label": "PER"
+        }
+    ],
+    "找办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我想要一营邱瑞团长": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "一营",
+            "label": "ORG"
+        },
+        {
+            "word": "邱瑞",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        }
+    ],
+    "二排的电话号码": [
+        {
+            "word": "二排",
+            "label": "ORG"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "二营高建国办公室电话号": [
+        {
+            "word": "二营",
+            "label": "ORG"
+        },
+        {
+            "word": "高建国",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "查三团团长手机": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "三团",
+            "label": "ORG"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "吴玉英办公室电话": [
+        {
+            "word": "吴玉英",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我想要三团罗璐手机": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "三团",
+            "label": "ORG"
+        },
+        {
+            "word": "罗璐",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "吴丹丹营长手机号码": [
+        {
+            "word": "吴丹丹",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "想要手机号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "郭龙班长电话号": [
+        {
+            "word": "郭龙",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "二团乔刚连长办公室号码": [
+        {
+            "word": "二团",
+            "label": "ORG"
+        },
+        {
+            "word": "乔刚",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "二连沈凯营长的电话号": [
+        {
+            "word": "二连",
+            "label": "ORG"
+        },
+        {
+            "word": "沈凯",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "要吕楠连长": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "吕楠",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        }
+    ],
+    "雷娟排长": [
+        {
+            "word": "雷娟",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        }
+    ],
+    "一连郝春梅班长": [
+        {
+            "word": "一连",
+            "label": "ORG"
+        },
+        {
+            "word": "郝春梅",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        }
+    ],
+    "找营长手机": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "排长手机": [
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "我找办公室号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "一班蒋晨办公室": [
+        {
+            "word": "一班",
+            "label": "ORG"
+        },
+        {
+            "word": "蒋晨",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "找一排邵雪梅办公室号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "一排",
+            "label": "ORG"
+        },
+        {
+            "word": "邵雪梅",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "我查段倩": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "段倩",
+            "label": "PER"
+        }
+    ],
+    "找董建班长手机的电话": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "董建",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我要一班排长": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "一班",
+            "label": "ORG"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        }
+    ],
+    "我找手机的电话号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "我要三团团长电话号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "三团",
+            "label": "ORG"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "想要一班手机的电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "一班",
+            "label": "ORG"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "找三营办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我找二班办公室": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "二班",
+            "label": "ORG"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "找三连连长": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "三连",
+            "label": "ORG"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        }
+    ],
+    "要手机电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "一排排长电话号": [
+        {
+            "word": "一排",
+            "label": "ORG"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "董桂荣": [
+        {
+            "word": "董桂荣",
+            "label": "PER"
+        }
+    ],
+    "我要乔玉梅班长办公室": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "乔玉梅",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "顾琴营长": [
+        {
+            "word": "顾琴",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        }
+    ],
+    "排长办公室电话": [
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我想要一团班长办公室的号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "一团",
+            "label": "ORG"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "一营乔艳连长": [
+        {
+            "word": "一营",
+            "label": "ORG"
+        },
+        {
+            "word": "乔艳",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        }
+    ],
+    "要排长的电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "三连邵秀云连长": [
+        {
+            "word": "三连",
+            "label": "ORG"
+        },
+        {
+            "word": "邵秀云",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        }
+    ],
+    "查韩洋办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "韩洋",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "班长": [
+        {
+            "word": "班长",
+            "label": "POS"
+        }
+    ],
+    "要二班沈凯手机电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "二班",
+            "label": "ORG"
+        },
+        {
+            "word": "沈凯",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "查三排的电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "三排",
+            "label": "ORG"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "想要三连团长手机的电话号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "三连",
+            "label": "ORG"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "想要三排汪红办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "三排",
+            "label": "ORG"
+        },
+        {
+            "word": "汪红",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我要排长的电话号": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "二营江波": [
+        {
+            "word": "二营",
+            "label": "ORG"
+        },
+        {
+            "word": "江波",
+            "label": "PER"
+        }
+    ],
+    "我查手机电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "二团文博办公室": [
+        {
+            "word": "二团",
+            "label": "ORG"
+        },
+        {
+            "word": "文博",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我查连长办公室的号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "要一团团长": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "一团",
+            "label": "ORG"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        }
+    ],
+    "我查二团邵桂花营长的电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "二团",
+            "label": "ORG"
+        },
+        {
+            "word": "邵桂花",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我要团长办公室": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我要班长办公室的号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "我想要办公室": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "二营排长办公室": [
+        {
+            "word": "二营",
+            "label": "ORG"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "送娜": [
+        {
+            "word": "送娜",
+            "label": "PER"
+        }
+    ],
+    "我查一团营长办公室的电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "一团",
+            "label": "ORG"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "班长的电话": [
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "一排武霞团长的号码": [
+        {
+            "word": "一排",
+            "label": "ORG"
+        },
+        {
+            "word": "武霞",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "朱秀梅办公室": [
+        {
+            "word": "朱秀梅",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我想要贺利团长办公室": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "贺利",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "赖玉英": [
+        {
+            "word": "赖玉英",
+            "label": "PER"
+        }
+    ],
+    "想要团长手机": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "我要二营的电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "二营",
+            "label": "ORG"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "手机电话": [
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我查二连杜亮连长": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "二连",
+            "label": "ORG"
+        },
+        {
+            "word": "杜亮",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        }
+    ],
+    "一班办公室": [
+        {
+            "word": "一班",
+            "label": "ORG"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "一连手机电话号码": [
+        {
+            "word": "一连",
+            "label": "ORG"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "三团班长手机的号码": [
+        {
+            "word": "三团",
+            "label": "ORG"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "一营连长手机": [
+        {
+            "word": "一营",
+            "label": "ORG"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "我想要杜亮": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "杜亮",
+            "label": "PER"
+        }
+    ],
+    "要三连萧玲办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "三连",
+            "label": "ORG"
+        },
+        {
+            "word": "萧玲",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "要二排金凤英办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "二排",
+            "label": "ORG"
+        },
+        {
+            "word": "金凤英",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "想要二团何玉营长办公室的电话": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "二团",
+            "label": "ORG"
+        },
+        {
+            "word": "何玉",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "一团的电话号码": [
+        {
+            "word": "一团",
+            "label": "ORG"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "找邹婷号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "邹婷",
+            "label": "PER"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "唐芳连长办公室电话号码": [
+        {
+            "word": "唐芳",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "二团胡瑜团长的电话号": [
+        {
+            "word": "二团",
+            "label": "ORG"
+        },
+        {
+            "word": "胡瑜",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "一团武佳连长": [
+        {
+            "word": "一团",
+            "label": "ORG"
+        },
+        {
+            "word": "武佳",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        }
+    ],
+    "我要一连办公室的电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "一连",
+            "label": "ORG"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "三班冯凤兰的电话": [
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "冯凤兰",
+            "label": "PER"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我要团长电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "要一连范兰英连长手机的号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "一连",
+            "label": "ORG"
+        },
+        {
+            "word": "范兰英",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "想要二连团长手机电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "二连",
+            "label": "ORG"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "我找一连夏峰排长办公室的号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "一连",
+            "label": "ORG"
+        },
+        {
+            "word": "夏峰",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "二班蔡丽丽办公室": [
+        {
+            "word": "二班",
+            "label": "ORG"
+        },
+        {
+            "word": "蔡丽丽",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "三团团长手机的号码": [
+        {
+            "word": "三团",
+            "label": "ORG"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "一排营长的电话号码": [
+        {
+            "word": "一排",
+            "label": "ORG"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "姜健办公室的号码": [
+        {
+            "word": "姜健",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "想要三营曹莉排长": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "曹莉",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        }
+    ],
+    "一连唐楠连长手机": [
+        {
+            "word": "一连",
+            "label": "ORG"
+        },
+        {
+            "word": "唐楠",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "团长的电话": [
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "二连手机的电话": [
+        {
+            "word": "二连",
+            "label": "ORG"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我想要二营": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "二营",
+            "label": "ORG"
+        }
+    ],
+    "要三班吕琳手机的号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "吕琳",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "我要文莉连长电话号": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "文莉",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "二排营长": [
+        {
+            "word": "二排",
+            "label": "ORG"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        }
+    ],
+    "我想要三营孔玉珍团长": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "孔玉珍",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        }
+    ],
+    "我找二排营长办公室": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "二排",
+            "label": "ORG"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我查孙辉": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "孙辉",
+            "label": "PER"
+        }
+    ],
+    "梁超团长手机": [
+        {
+            "word": "梁超",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "我要排长办公室的电话号": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "秦桂芳排长手机号码": [
+        {
+            "word": "秦桂芳",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "一团排长": [
+        {
+            "word": "一团",
+            "label": "ORG"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        }
+    ],
+    "我找二排卢小红电话号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "二排",
+            "label": "ORG"
+        },
+        {
+            "word": "卢小红",
+            "label": "PER"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "我想要魏冬梅营长电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "魏冬梅",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我想要一团连长": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "一团",
+            "label": "ORG"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        }
+    ],
+    "郭刚": [
+        {
+            "word": "郭刚",
+            "label": "PER"
+        }
+    ],
+    "田利的号码": [
+        {
+            "word": "田利",
+            "label": "PER"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "我想要营长办公室的号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "二连排长电话号": [
+        {
+            "word": "二连",
+            "label": "ORG"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "查三营排长手机": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "一连赖峰": [
+        {
+            "word": "一连",
+            "label": "ORG"
+        },
+        {
+            "word": "赖峰",
+            "label": "PER"
+        }
+    ],
+    "魏瑞的号码": [
+        {
+            "word": "魏瑞",
+            "label": "PER"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "想要三排尹想办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "三排",
+            "label": "ORG"
+        },
+        {
+            "word": "尹想",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "三排丁欢团长办公室电话号码": [
+        {
+            "word": "三排",
+            "label": "ORG"
+        },
+        {
+            "word": "丁欢",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "找三团阎洁办公室的电话号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "三团",
+            "label": "ORG"
+        },
+        {
+            "word": "阎洁",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "一班崔莹连长办公室": [
+        {
+            "word": "一班",
+            "label": "ORG"
+        },
+        {
+            "word": "崔莹",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "吕红霞": [
+        {
+            "word": "吕红霞",
+            "label": "PER"
+        }
+    ],
+    "找三班邓成手机的电话": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "邓成",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "找二连连长电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "二连",
+            "label": "ORG"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "要班长手机的电话号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "三团曾淑英": [
+        {
+            "word": "三团",
+            "label": "ORG"
+        },
+        {
+            "word": "曾淑英",
+            "label": "PER"
+        }
+    ],
+    "三排潘秀荣电话": [
+        {
+            "word": "三排",
+            "label": "ORG"
+        },
+        {
+            "word": "潘秀荣",
+            "label": "PER"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "三班郭淑英": [
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "郭淑英",
+            "label": "PER"
+        }
+    ],
+    "于建军班长电话": [
+        {
+            "word": "于建军",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我要排长": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        }
+    ],
+    "要三连常志强团长办公室电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "三连",
+            "label": "ORG"
+        },
+        {
+            "word": "常志强",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "我想要三班易桂花团长的电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "易桂花",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "二排秦强排长手机": [
+        {
+            "word": "二排",
+            "label": "ORG"
+        },
+        {
+            "word": "秦强",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "要梁亮班长": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "梁亮",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        }
+    ],
+    "查排长的电话号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "三营连长手机": [
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "查排长办公室的电话": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我找阎丹的电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "阎丹",
+            "label": "PER"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "一连冯婷婷": [
+        {
+            "word": "一连",
+            "label": "ORG"
+        },
+        {
+            "word": "冯婷婷",
+            "label": "PER"
+        }
+    ],
+    "要团长": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        }
+    ],
+    "张涛班长": [
+        {
+            "word": "张涛",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        }
+    ],
+    "要办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "排长手机电话号码": [
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "我想要三班乔秀梅连长手机的号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "乔秀梅",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "三班排长手机": [
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "找班长办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我找三营办公室": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "手机的电话号码": [
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "找三排马志强办公室电话号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "三排",
+            "label": "ORG"
+        },
+        {
+            "word": "马志强",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "我要一连冯婷婷团长办公室": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "一连",
+            "label": "ORG"
+        },
+        {
+            "word": "冯婷婷",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我查办公室电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "要二连汪莉班长": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "二连",
+            "label": "ORG"
+        },
+        {
+            "word": "汪莉",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        }
+    ],
+    "查罗海燕": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "罗海燕",
+            "label": "PER"
+        }
+    ],
+    "查二营排长办公室电话": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "二营",
+            "label": "ORG"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我找二班": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "二班",
+            "label": "ORG"
+        }
+    ],
+    "谭丹丹手机的电话号码": [
+        {
+            "word": "谭丹丹",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "查方想办公室电话": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "方想",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "三营": [
+        {
+            "word": "三营",
+            "label": "ORG"
+        }
+    ],
+    "三营班长号码": [
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "一营袁红霞": [
+        {
+            "word": "一营",
+            "label": "ORG"
+        },
+        {
+            "word": "袁红霞",
+            "label": "PER"
+        }
+    ],
+    "查梁凯营长办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "梁凯",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "三营送玲团长电话号码": [
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "送玲",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "我找二营连长办公室的电话号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "二营",
+            "label": "ORG"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "想要三团手机电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "三团",
+            "label": "ORG"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "一班萧琴号码": [
+        {
+            "word": "一班",
+            "label": "ORG"
+        },
+        {
+            "word": "萧琴",
+            "label": "PER"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "想要二排苏凤兰团长的电话": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "二排",
+            "label": "ORG"
+        },
+        {
+            "word": "苏凤兰",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "二班易桂花的电话号": [
+        {
+            "word": "二班",
+            "label": "ORG"
+        },
+        {
+            "word": "易桂花",
+            "label": "PER"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "一团罗敏排长": [
+        {
+            "word": "一团",
+            "label": "ORG"
+        },
+        {
+            "word": "罗敏",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        }
+    ],
+    "汪凤兰班长": [
+        {
+            "word": "汪凤兰",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        }
+    ],
+    "我找班长的电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我查易燕电话号": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "易燕",
+            "label": "PER"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "我找任春梅电话号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "任春梅",
+            "label": "PER"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "查一团班长电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "一团",
+            "label": "ORG"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "我查二排尹柳排长手机电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "二排",
+            "label": "ORG"
+        },
+        {
+            "word": "尹柳",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "一排丁杰办公室的电话号": [
+        {
+            "word": "一排",
+            "label": "ORG"
+        },
+        {
+            "word": "丁杰",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "曹淑珍营长的电话号码": [
+        {
+            "word": "曹淑珍",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "找一班连长电话": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "一班",
+            "label": "ORG"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "查许鹏团长手机": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "许鹏",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "想要团长办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我找三连丁佳的电话号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "三连",
+            "label": "ORG"
+        },
+        {
+            "word": "丁佳",
+            "label": "PER"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "想要金强": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "金强",
+            "label": "PER"
+        }
+    ],
+    "找一班的电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "一班",
+            "label": "ORG"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "我找三团董建军营长": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "三团",
+            "label": "ORG"
+        },
+        {
+            "word": "董建军",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        }
+    ],
+    "一班排长": [
+        {
+            "word": "一班",
+            "label": "ORG"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        }
+    ],
+    "要一排连长办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "一排",
+            "label": "ORG"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "二排吴丽": [
+        {
+            "word": "二排",
+            "label": "ORG"
+        },
+        {
+            "word": "吴丽",
+            "label": "PER"
+        }
+    ],
+    "我要吴兵办公室": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "吴兵",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "查一团詹舒波团长": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "一团",
+            "label": "ORG"
+        },
+        {
+            "word": "詹舒波",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        }
+    ],
+    "二营团长": [
+        {
+            "word": "二营",
+            "label": "ORG"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        }
+    ],
+    "找任春梅团长办公室的号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "任春梅",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "办公室电话": [
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我找二排团长号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "二排",
+            "label": "ORG"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "我查三团吴兵班长手机的电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "三团",
+            "label": "ORG"
+        },
+        {
+            "word": "吴兵",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "三团龚红梅办公室的电话": [
+        {
+            "word": "三团",
+            "label": "ORG"
+        },
+        {
+            "word": "龚红梅",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "要一班连长的电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "一班",
+            "label": "ORG"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "常洁排长": [
+        {
+            "word": "常洁",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        }
+    ],
+    "郝旭办公室": [
+        {
+            "word": "郝旭",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "想要三排": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "三排",
+            "label": "ORG"
+        }
+    ],
+    "我找排长办公室": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我查三营张忠宝团长办公室的电话号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "张忠宝",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "阎凯办公室的号码": [
+        {
+            "word": "阎凯",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "团长的电话号码": [
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "郭丽华班长办公室": [
+        {
+            "word": "郭丽华",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "一营史丽娟的电话号": [
+        {
+            "word": "一营",
+            "label": "ORG"
+        },
+        {
+            "word": "史丽娟",
+            "label": "PER"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "二团丁欢的号码": [
+        {
+            "word": "二团",
+            "label": "ORG"
+        },
+        {
+            "word": "丁欢",
+            "label": "PER"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "我要班长办公室电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我要贾玉珍班长的号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "贾玉珍",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "二团办公室": [
+        {
+            "word": "二团",
+            "label": "ORG"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我找郭丽团长办公室": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "郭丽",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "阎丹连长手机": [
+        {
+            "word": "阎丹",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "找许桂珍营长手机电话": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "许桂珍",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我想要三连杨桂兰": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "三连",
+            "label": "ORG"
+        },
+        {
+            "word": "杨桂兰",
+            "label": "PER"
+        }
+    ],
+    "我查二班武平电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "二班",
+            "label": "ORG"
+        },
+        {
+            "word": "武平",
+            "label": "PER"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我找三班班长手机": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "三营办公室": [
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "查二连段秀云号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "二连",
+            "label": "ORG"
+        },
+        {
+            "word": "段秀云",
+            "label": "PER"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "查戴桂兰营长手机的电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "戴桂兰",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "胡龙营长": [
+        {
+            "word": "胡龙",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        }
+    ],
+    "潘英连长": [
+        {
+            "word": "潘英",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        }
+    ],
+    "排长办公室": [
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我要阎辉营长办公室": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "阎辉",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "一团排长手机": [
+        {
+            "word": "一团",
+            "label": "ORG"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "查团长办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "查三班团长号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "办公室的电话号": [
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "许慧团长号码": [
+        {
+            "word": "许慧",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "查史莹团长手机的电话号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "史莹",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "三班易秀兰手机电话": [
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "易秀兰",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "一连侯佳": [
+        {
+            "word": "一连",
+            "label": "ORG"
+        },
+        {
+            "word": "侯佳",
+            "label": "PER"
+        }
+    ],
+    "二连吴玉英的电话号码": [
+        {
+            "word": "二连",
+            "label": "ORG"
+        },
+        {
+            "word": "吴玉英",
+            "label": "PER"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "一连罗东排长手机的电话号码": [
+        {
+            "word": "一连",
+            "label": "ORG"
+        },
+        {
+            "word": "罗东",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "戴霞班长手机": [
+        {
+            "word": "戴霞",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "想要魏秀珍营长的电话号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "魏秀珍",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "要二班排长": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "二班",
+            "label": "ORG"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        }
+    ],
+    "查排长手机的电话号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "我查三营尹阳手机": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "尹阳",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "陆建军手机电话号码": [
+        {
+            "word": "陆建军",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "吴兵办公室": [
+        {
+            "word": "吴兵",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我查二排谭秀荣营长手机": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "二排",
+            "label": "ORG"
+        },
+        {
+            "word": "谭秀荣",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "二营董桂荣班长办公室": [
+        {
+            "word": "二营",
+            "label": "ORG"
+        },
+        {
+            "word": "董桂荣",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我查二班的电话号": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "二班",
+            "label": "ORG"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "一营手机电话号": [
+        {
+            "word": "一营",
+            "label": "ORG"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "三排营长": [
+        {
+            "word": "三排",
+            "label": "ORG"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        }
+    ],
+    "一连易秀兰连长手机的电话": [
+        {
+            "word": "一连",
+            "label": "ORG"
+        },
+        {
+            "word": "易秀兰",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "找二营电话号": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "二营",
+            "label": "ORG"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "三班戴雪排长手机": [
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "戴雪",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "一连班长手机的电话": [
+        {
+            "word": "一连",
+            "label": "ORG"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "孔明电话号": [
+        {
+            "word": "孔明",
+            "label": "PER"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "我想要一排电话号": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "一排",
+            "label": "ORG"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "连长办公室的电话号码": [
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "陆军团长的电话号": [
+        {
+            "word": "陆军",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "二排卢桂花手机": [
+        {
+            "word": "二排",
+            "label": "ORG"
+        },
+        {
+            "word": "卢桂花",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "我想要三营丁荣营长办公室的电话号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "丁荣",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "找夏瑜办公室电话": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "夏瑜",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我查三连郑欢排长的电话号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "三连",
+            "label": "ORG"
+        },
+        {
+            "word": "郑欢",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "三营谭伟排长手机的电话号": [
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "谭伟",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "找连长电话号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "查团长手机电话": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "要三排郑博": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "三排",
+            "label": "ORG"
+        },
+        {
+            "word": "郑博",
+            "label": "PER"
+        }
+    ],
+    "二连办公室电话号": [
+        {
+            "word": "二连",
+            "label": "ORG"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "戴霞班长办公室": [
+        {
+            "word": "戴霞",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "二班班长办公室": [
+        {
+            "word": "二班",
+            "label": "ORG"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我查三连高平电话号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "三连",
+            "label": "ORG"
+        },
+        {
+            "word": "高平",
+            "label": "PER"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "找三连姚健": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "三连",
+            "label": "ORG"
+        },
+        {
+            "word": "姚健",
+            "label": "PER"
+        }
+    ],
+    "三团手机": [
+        {
+            "word": "三团",
+            "label": "ORG"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "一营连长电话": [
+        {
+            "word": "一营",
+            "label": "ORG"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我要一排手机": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "一排",
+            "label": "ORG"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "三营易想手机号码": [
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "易想",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "我想要龚桂芝": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "龚桂芝",
+            "label": "PER"
+        }
+    ],
+    "周杰手机": [
+        {
+            "word": "周杰",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "二连排长办公室的电话号码": [
+        {
+            "word": "二连",
+            "label": "ORG"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "想要班长电话": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我查田瑜的电话号": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "田瑜",
+            "label": "PER"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "胡瑜手机": [
+        {
+            "word": "胡瑜",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "二班": [
+        {
+            "word": "二班",
+            "label": "ORG"
+        }
+    ],
+    "许强办公室电话号码": [
+        {
+            "word": "许强",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "邵杰班长的电话号码": [
+        {
+            "word": "邵杰",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "找侯宁的电话号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "侯宁",
+            "label": "PER"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "我要二排手机电话号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "二排",
+            "label": "ORG"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "邱瑞排长": [
+        {
+            "word": "邱瑞",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        }
+    ],
+    "我想要一班尹勇手机电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "一班",
+            "label": "ORG"
+        },
+        {
+            "word": "尹勇",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我要薛玉华手机的号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "薛玉华",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "想要韩金凤排长": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "韩金凤",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        }
+    ],
+    "找段明办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "段明",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "郝玉兰": [
+        {
+            "word": "郝玉兰",
+            "label": "PER"
+        }
+    ],
+    "二排连长": [
+        {
+            "word": "二排",
+            "label": "ORG"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        }
+    ],
+    "钟文办公室": [
+        {
+            "word": "钟文",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "一团李彬手机": [
+        {
+            "word": "一团",
+            "label": "ORG"
+        },
+        {
+            "word": "李彬",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "我想要二班营长电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "二班",
+            "label": "ORG"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "二班的号码": [
+        {
+            "word": "二班",
+            "label": "ORG"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "找团长": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        }
+    ],
+    "我想要二团手机电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "二团",
+            "label": "ORG"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "三班高岩排长办公室": [
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "高岩",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "段倩班长电话": [
+        {
+            "word": "段倩",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我查手机的号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "团长办公室": [
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "黄欣班长手机": [
+        {
+            "word": "黄欣",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "找丁辉连长办公室": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "丁辉",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "一团送玲排长办公室": [
+        {
+            "word": "一团",
+            "label": "ORG"
+        },
+        {
+            "word": "送玲",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "想要团长的电话": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "我查钟军": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "钟军",
+            "label": "PER"
+        }
+    ],
+    "我查一营营长手机的电话号": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "一营",
+            "label": "ORG"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "我查三团": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "三团",
+            "label": "ORG"
+        }
+    ],
+    "要阎桂兰团长电话号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "阎桂兰",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "要彭杰手机电话号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "彭杰",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "我找三营邹丹营长": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "找",
+            "label": "O"
+        },
+        {
+            "word": "三营",
+            "label": "ORG"
+        },
+        {
+            "word": "邹丹",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        }
+    ],
+    "我想要一团连长电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "一团",
+            "label": "ORG"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "二班赵坤团长办公室的电话号码": [
+        {
+            "word": "二班",
+            "label": "ORG"
+        },
+        {
+            "word": "赵坤",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "我想要郑磊连长手机电话号码": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "郑磊",
+            "label": "PER"
+        },
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "二营办公室的电话号码": [
+        {
+            "word": "二营",
+            "label": "ORG"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "想要阎凯的号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "阎凯",
+            "label": "PER"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "二团营长": [
+        {
+            "word": "二团",
+            "label": "ORG"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        }
+    ],
+    "查二班的号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "二班",
+            "label": "ORG"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "办公室的电话号码": [
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "我查三排吕秀华手机电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "三排",
+            "label": "ORG"
+        },
+        {
+            "word": "吕秀华",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "连长手机电话号码": [
+        {
+            "word": "连长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "我查邹淑兰团长电话": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "查",
+            "label": "O"
+        },
+        {
+            "word": "邹淑兰",
+            "label": "PER"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "金雷班长办公室": [
+        {
+            "word": "金雷",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "二团的电话": [
+        {
+            "word": "二团",
+            "label": "ORG"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "团长号码": [
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "二营乔玉梅营长手机号码": [
+        {
+            "word": "二营",
+            "label": "ORG"
+        },
+        {
+            "word": "乔玉梅",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "三班王莹排长办公室": [
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "王莹",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "陈桂兰营长手机的电话": [
+        {
+            "word": "陈桂兰",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "的",
+            "label": "O"
+        },
+        {
+            "word": "电话",
+            "label": "O"
+        }
+    ],
+    "三团顾欣手机电话号": [
+        {
+            "word": "三团",
+            "label": "ORG"
+        },
+        {
+            "word": "顾欣",
+            "label": "PER"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号",
+            "label": "O"
+        }
+    ],
+    "三班萧建军办公室": [
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "萧建军",
+            "label": "PER"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "二团营长手机": [
+        {
+            "word": "二团",
+            "label": "ORG"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "手机",
+            "label": "TYP"
+        }
+    ],
+    "任帆营长办公室": [
+        {
+            "word": "任帆",
+            "label": "PER"
+        },
+        {
+            "word": "营长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "我要三班团长办公室": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "三班",
+            "label": "ORG"
+        },
+        {
+            "word": "团长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "三连孙龙排长办公室电话号码": [
+        {
+            "word": "三连",
+            "label": "ORG"
+        },
+        {
+            "word": "孙龙",
+            "label": "PER"
+        },
+        {
+            "word": "排长",
+            "label": "POS"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "电话号码",
+            "label": "O"
+        }
+    ],
+    "要二团孙浩班长号码": [
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "要",
+            "label": "O"
+        },
+        {
+            "word": "二团",
+            "label": "ORG"
+        },
+        {
+            "word": "孙浩",
+            "label": "PER"
+        },
+        {
+            "word": "班长",
+            "label": "POS"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
+            "label": "O"
+        }
+    ],
+    "我想要一营办公室": [
+        {
+            "word": "我",
+            "label": "O"
+        },
+        {
+            "word": "想要",
+            "label": "O"
+        },
+        {
+            "word": "一营",
+            "label": "ORG"
+        },
+        {
+            "word": "办公室",
+            "label": "TYP"
+        }
+    ],
+    "一营邱涛号码": [
+        {
+            "word": "一营",
+            "label": "ORG"
+        },
+        {
+            "word": "邱涛",
+            "label": "PER"
+        },
+        {
+            "word": "",
+            "label": "O"
+        },
+        {
+            "word": "号码",
             "label": "O"
         }
     ]
