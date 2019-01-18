@@ -54,28 +54,31 @@ def make_name(pre_names, end_names, num):
 
 
 def dict2list(sents):
-    word_mat, label_mat = list(), list()
-    for pairs in sents.values():
-        words, labels = list(), list()
-        for pair in pairs:
-            words.append(pair['word'])
-            labels.append(pair['label'])
+    word_mat, tag_mat, label_mat = list(), list(), list()
+    for triples in sents.values():
+        words, tags, labels = list(), list(), list()
+        for triple in triples:
+            words.append(triple['word'])
+            tags.append(triple['pos'])
+            labels.append(triple['label'])
         word_mat.append(words)
+        tag_mat.append(tags)
         label_mat.append(labels)
-    return word_mat, label_mat
+    return word_mat, tag_mat, label_mat
 
 
-def list2dict(word_mat, label_mat):
+def list2dict(word_mat, tag_mat, label_mat):
     sents = dict()
-    for words, labels in zip(word_mat, label_mat):
+    for words, tags, labels in zip(word_mat, tag_mat, label_mat):
         text = ''.join(words)
-        pairs = list()
-        for word, label in zip(words, labels):
-            pair = dict()
-            pair['word'] = word
-            pair['label'] = label
-            pairs.append(pair)
-        sents[text] = pairs
+        triples = list()
+        for word, tag, label in zip(words, tags, labels):
+            triple = dict()
+            triple['word'] = word
+            triple['pos'] = tag
+            triple['label'] = label
+            triples.append(triples)
+        sents[text] = triples
     return sents
 
 
@@ -97,7 +100,7 @@ def select(part):
 
 
 def generate(temps, slots, num):
-    word_mat, label_mat = list(), list()
+    word_mat, tag_mat, label_mat = list(), list(), list()
     for i in range(num):
         parts = choice(temps)
         words, labels = list(), list()
@@ -111,15 +114,16 @@ def generate(temps, slots, num):
                 if word:
                     words.append(word)
                     labels.append('O')
+
         word_mat.append(words)
         label_mat.append(labels)
-    return word_mat, label_mat
+    return word_mat, tag_mat, label_mat
 
 
-def sync_shuffle(list1, list2):
-    pairs = list(zip(list1, list2))
-    shuffle(pairs)
-    return zip(*pairs)
+def sync_shuffle(list1, list2, list3):
+    triples = list(zip(list1, list2, list3))
+    shuffle(triples)
+    return zip(*triples)
 
 
 def label_sent(path):
@@ -131,10 +135,10 @@ def label_sent(path):
             print('skip: %s', text)
             continue
         triples = list()
-        for word, pos in pairs:
+        for word, tag in pairs:
             triple = dict()
             triple['word'] = word
-            triple['pos'] = pos
+            triple['pos'] = tag
             if word in entitys:
                 ind = entitys.index(word)
                 triple['label'] = labels[ind]
@@ -145,14 +149,16 @@ def label_sent(path):
     return sents
 
 
-def expand(sents, gen_word_mat, gen_label_mat):
-    word_mat, label_mat = dict2list(sents)
+def expand(sents, gen_mats):
+    gen_word_mat, gen_tag_mat, gen_label_mat = gen_mats
+    word_mat, tag_mat, label_mat = dict2list(sents)
     word_mat.extend(gen_word_mat)
+    tag_mat.extend(gen_tag_mat)
     label_mat.extend(gen_label_mat)
-    word_mat, label_mat = sync_shuffle(word_mat, label_mat)
+    word_mat, tag_mat, label_mat = sync_shuffle(word_mat, tag_mat, label_mat)
     bound = int(len(word_mat) * 0.9)
-    train_sents = list2dict(word_mat[:bound], label_mat[:bound])
-    test_sents = list2dict(word_mat[bound:], label_mat[bound:])
+    train_sents = list2dict(word_mat[:bound], tag_mat[:bound], label_mat[:bound])
+    test_sents = list2dict(word_mat[bound:], tag_mat[bound:], label_mat[bound:])
     return train_sents, test_sents
 
 
@@ -174,9 +180,9 @@ def prepare(paths):
                 slots[label].append(line.strip())
     names = make_name(pre_names, end_names, num=1000)
     slots['PER'].extend(names)
-    gen_word_mat, gen_label_mat = generate(temps, slots, num=5000)
+    gen_mats = generate(temps, slots, num=5000)
     sents = label_sent(paths['extra'])
-    train_sents, test_sents = expand(sents, gen_word_mat, gen_label_mat)
+    train_sents, test_sents = expand(sents, gen_mats)
     save(paths['train'], train_sents)
     save(paths['test'], test_sents)
 
