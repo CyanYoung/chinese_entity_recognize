@@ -3,8 +3,6 @@ import os
 import json
 import pandas as pd
 
-import re
-
 import jieba
 from jieba.posseg import cut as pos_cut
 
@@ -13,38 +11,46 @@ from random import shuffle, choice
 from util import load_word, load_pair, load_poly, flat_read
 
 
-def save_entity(path_train_dir, path_entity):
-    entity_set = set()
-    files = os.listdir(path_train_dir)
-    for file in files:
-        entity_strs = flat_read(os.path.join(path_train_dir, file), 'entity')
-        for entity_str in entity_strs:
-            entitys = entity_str[0].strip().split()
-            for entity in entitys:
-                entity_set.add(entity)
-    with open(path_entity, 'w') as f:
-        for entity in entity_set:
-            f.write(entity + '\n')
-
-
-def add_entity(path_word, path_entity):
-    words = load_word(path_word)
-    with open(path_entity, 'a') as f:
-        for word in words:
-            f.write(word + '\n')
-
-
 path_zh_en = 'dict/zh_en.csv'
+path_pre_name = 'dict/pre_name.txt'
+path_end_name = 'dict/end_name.txt'
 path_homo = 'dict/homo.csv'
 path_syno = 'dict/syno.csv'
 zh_en = load_pair(path_zh_en)
+pre_names = load_word(path_pre_name)
+end_names = load_word(path_end_name)
 homo_dict = load_poly(path_homo)
 syno_dict = load_poly(path_syno)
+
+
+def merge(path_slot_dir, path_extra, path_cut_word):
+    entitys = list()
+    files = os.listdir(path_slot_dir)
+    for file in files:
+        words = load_word(os.path.join(path_slot_dir, file))
+        entitys.extend(words)
+    entity_strs = flat_read(path_extra, 'entity')
+    for entity_str in entity_strs:
+        words = entity_str.split()
+        entitys.extend(words)
+    entity_set = set(entitys)
+    with open(path_cut_word, 'w') as f:
+        for entity in entity_set:
+            f.write(entity + '\n')
 
 
 def save(path, sents):
     with open(path, 'w') as f:
         json.dump(sents, f, ensure_ascii=False, indent=4)
+
+
+def make_name(pre_names, end_names, num):
+    names = list()
+    for i in range(num):
+        pre_name = choice(pre_names)
+        end_name = choice(end_names)
+        names.append(pre_name + end_name)
+    return names
 
 
 def dict2list(sents):
@@ -150,6 +156,8 @@ def expand(sents, gen_word_mat, gen_label_mat):
 
 
 def prepare(paths):
+    merge(paths['slot_dir'], paths['extra'], paths['cut_word'])
+    jieba.load_userdict(paths['cut_word'])
     temps = list()
     with open(paths['temp'], 'r') as f:
         for line in f:
@@ -163,6 +171,8 @@ def prepare(paths):
         with open(os.path.join(paths['slot_dir'], file), 'r') as f:
             for line in f:
                 slots[label].append(line.strip())
+    names = make_name(pre_names, end_names, num=1000)
+    slots['PER'].extend(names)
     gen_word_mat, gen_label_mat = generate(temps, slots, num=5000)
     sents = label_sent(paths['extra'])
     train_sents, test_sents = expand(sents, gen_word_mat, gen_label_mat)
@@ -177,4 +187,5 @@ if __name__ == '__main__':
     paths['temp'] = 'data/template.txt'
     paths['slot_dir'] = 'data/slot'
     paths['extra'] = 'data/extra.csv'
+    paths['cut_word'] = 'dict/cut_word.txt'
     prepare(paths)
