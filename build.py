@@ -12,7 +12,7 @@ from sklearn.metrics import make_scorer
 from sklearn_crfsuite.metrics import flat_accuracy_score
 
 
-min_freq = 1
+min_freq = 3
 
 path_sent = 'feat/sent_train.json'
 path_label = 'feat/label_train.json'
