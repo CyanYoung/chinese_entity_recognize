@@ -4,9 +4,11 @@ import re
 
 from util import load_word_re
 
-
+path_train = 'data/train.json'
 path_pre_name = 'dict/pre_name.txt'
 path_digit = 'dict/digit.txt'
+with open(path_train, 'r') as f:
+    sents = json.load(f)
 pre_name_re = load_word_re(path_pre_name)
 digit_re = load_word_re(path_digit)
 
@@ -69,9 +71,7 @@ def sent2label(triples):
     return label
 
 
-def featurize(path_train, path_sent, path_label):
-    with open(path_train, 'r') as f:
-        sents = json.load(f)
+def featurize(sents, path_sent, path_label):
     sent_feats, labels = list(), list()
     for triples in sents.values():
         sent_feats.append(sent2feat(triples))
@@ -83,7 +83,6 @@ def featurize(path_train, path_sent, path_label):
 
 
 if __name__ == '__main__':
-    path_train = 'data/train.json'
     path_sent = 'feat/sent_train.json'
     path_label = 'feat/label_train.json'
-    featurize(path_train, path_sent, path_label)
+    featurize(sents, path_sent, path_label)

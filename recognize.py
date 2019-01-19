@@ -12,13 +12,6 @@ with open(path_crf, 'rb') as f:
     crf = pk.load(f)
 
 
-def restore(triples):
-    words = list()
-    for triple in triples:
-        words.append(triple['word'])
-    return words
-
-
 def predict(text):
     text = text.strip()
     pairs = list(pos_cut(text))
