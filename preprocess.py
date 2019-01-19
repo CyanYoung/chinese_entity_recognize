@@ -190,10 +190,10 @@ def prepare(paths):
 
 if __name__ == '__main__':
     paths = dict()
+    paths['cut_word'] = 'dict/cut_word.txt'
     paths['train'] = 'data/train.json'
     paths['test'] = 'data/test.json'
     paths['temp'] = 'data/template.txt'
     paths['slot_dir'] = 'data/slot'
     paths['extra'] = 'data/extra.csv'
-    paths['cut_word'] = 'dict/cut_word.txt'
     prepare(paths)
