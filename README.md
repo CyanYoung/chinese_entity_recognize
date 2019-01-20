@@ -2,13 +2,11 @@
 
 #### 1.preprocess
 
-merge() 保存训练数据中的实体，jieba.load_userdict() 保证已有实体不被切分
+merge() 保存训练数据中的实体、jieba.load_userdict() 保证已有实体不被切分
 
 generate() 根据 template 采样实体进行填充、生成数据，可省去、替换
 
-check() 将分词
-
-每句处理为 (word, pos, label) 的三元组，保存为 text 索引的字典
+check() 对分词后的数据进行标注，每句处理为 (word, pos, label) 的三元组
 
 #### 2.represent
 
