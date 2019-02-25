@@ -4,6 +4,7 @@ import re
 
 from util import load_word_re
 
+
 path_train = 'data/train.json'
 path_pre_name = 'dict/pre_name.txt'
 path_digit = 'dict/digit.txt'
