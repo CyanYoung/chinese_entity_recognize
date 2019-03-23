@@ -1,6 +1,6 @@
 import json
 
-from sklearn_crfsuite.metrics import flat_accuracy_score
+from sklearn.metrics import accuracy_score, f1_score
 
 from recognize import predict
 
@@ -8,6 +8,13 @@ from recognize import predict
 path_test = 'data/test.json'
 with open(path_test, 'r') as f:
     sents = json.load(f)
+
+
+def flat(labels):
+    flat_labels = list()
+    for label in labels:
+        flat_labels.extend(label)
+    return flat_labels
 
 
 def test(sents):
@@ -27,7 +34,11 @@ def test(sents):
                 errors.append((word, label, pred))
         if errors:
             error_mat[text] = errors
-    print('\n%s %.2f\n' % ('acc:', flat_accuracy_score(label_mat, pred_mat)))
+    labels, preds = flat(label_mat), flat(pred_mat)
+    slots = list(set(labels))
+    slots.remove('O')
+    f1 = f1_score(labels, preds, average='weighted', labels=slots)
+    print('\nf1: %.2f - acc: %.2f' % (f1, accuracy_score(labels, preds)))
     for text, errors in error_mat.items():
         error_str = text
         for word, label, pred in errors:
