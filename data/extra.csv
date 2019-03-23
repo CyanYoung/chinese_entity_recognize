@@ -7,3 +7,4 @@ text,entity,label
 我找刘营长,刘 营长,PER POS
 三排杨勇的手机号码是多少,三排 杨勇 手机,ORG PER TYP
 我查一团王团长的办公室电话,一团 王 团长 办公室,ORG PER POS TYP
+我要二连李强的手机,二连 李强 手机,ORG PER TYP
