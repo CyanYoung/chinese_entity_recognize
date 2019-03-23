@@ -34,4 +34,4 @@ def predict(text):
 if __name__ == '__main__':
     while True:
         text = input('text: ')
-        print('pred: %s' % predict(text))
+        print('crf: %s' % predict(text))
