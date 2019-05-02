@@ -5,13 +5,14 @@ import re
 from util import load_word_re
 
 
-path_train = 'data/train.json'
 path_pre_name = 'dict/pre_name.txt'
 path_digit = 'dict/digit.txt'
-with open(path_train, 'r') as f:
-    sents = json.load(f)
 pre_name_re = load_word_re(path_pre_name)
 digit_re = load_word_re(path_digit)
+
+path_train = 'data/train.json'
+with open(path_train, 'r') as f:
+    sents = json.load(f)
 
 
 def include_pre_name(word):

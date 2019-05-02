@@ -5,9 +5,11 @@ from jieba.posseg import cut as pos_cut
 
 from represent import sent2feat
 
+
 path_cut_word = 'dict/cut_word.txt'
-path_crf = 'model/crf.pkl'
 jieba.load_userdict(path_cut_word)
+
+path_crf = 'model/crf.pkl'
 with open(path_crf, 'rb') as f:
     crf = pk.load(f)
 
