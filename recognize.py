@@ -16,8 +16,7 @@ with open(path_crf, 'rb') as f:
 
 def predict(text):
     pairs = list(pos_cut(text))
-    words = [word for word, tag in pairs]
-    tags = [tag for word, tag in pairs]
+    words, tags = zip(*pairs)
     triples = list()
     for word, tag in zip(words, tags):
         triple = dict()
