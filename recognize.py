@@ -6,8 +6,21 @@ from jieba.posseg import cut as pos_cut
 from represent import sent2feat
 
 
+def ind2label(label_inds):
+    ind_labels = dict()
+    for label, ind in label_inds.items():
+        ind_labels[ind] = label
+    return ind_labels
+
+
 path_cut_word = 'dict/cut_word.txt'
 jieba.load_userdict(path_cut_word)
+
+path_label_ind = 'feat/label_ind.pkl'
+with open(path_label_ind, 'rb') as f:
+    label_inds = pk.load(f)
+
+ind_labels = ind2label(label_inds)
 
 path_crf = 'model/crf.pkl'
 with open(path_crf, 'rb') as f:
@@ -31,7 +44,10 @@ def predict(text):
             pairs.append((word, pred))
         return pairs
     else:
-        return words, preds
+        inds = list()
+        for pred in preds:
+            inds.append(label_inds[pred])
+        return words, inds
 
 
 if __name__ == '__main__':

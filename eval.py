@@ -1,29 +1,15 @@
 import json
-import pickle as pk
 
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
-from recognize import predict
-
-
-def ind2label(label_inds):
-    ind_labels = dict()
-    for label, ind in label_inds.items():
-        ind_labels[ind] = label
-    return ind_labels
+from recognize import label_inds, ind_labels, predict
 
 
 path_test = 'data/test.json'
 with open(path_test, 'r') as f:
     sents = json.load(f)
 
-path_label_ind = 'feat/label_ind.pkl'
-with open(path_label_ind, 'rb') as f:
-    label_inds = pk.load(f)
-
 class_num = len(label_inds)
-
-ind_labels = ind2label(label_inds)
 
 slots = list(ind_labels.keys())
 slots.remove(label_inds['O'])
@@ -37,12 +23,12 @@ def test(sents):
         word1s, labels = list(), list()
         for triple in triples:
             word1s.append(triple['word'])
-            labels.append(triple['label'])
+            labels.append(label_inds[triple['label']])
         word2s, preds = predict(text)
         for i in range(len(word2s)):
             if word2s[i] == word2s[i]:
-                flat_labels.append(label_inds[labels[i]])
-                flat_preds.append(label_inds[preds[i]])
+                flat_labels.append(labels[i])
+                flat_preds.append(preds[i])
     precs = precision_score(flat_labels, flat_preds, average=None)
     recs = recall_score(flat_labels, flat_preds, average=None)
     with open(path_crf, 'w') as f:

@@ -4,7 +4,7 @@ from flask import Flask, request
 
 from argparse import ArgumentParser
 
-from recognize import predict
+from recognize import ind_labels, predict
 
 from util import load_pair, get_logger
 
@@ -38,6 +38,7 @@ def response():
     words, preds = predict(data['content'])
     entitys, labels = list(), list()
     for word, pred in zip(words, preds):
+        pred = ind_labels[pred]
         if pred != 'O':
             entitys.append(word)
             labels.append(zh_en[pred])
