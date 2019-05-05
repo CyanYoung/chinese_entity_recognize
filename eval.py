@@ -11,8 +11,8 @@ with open(path_test, 'r') as f:
 
 class_num = len(label_inds)
 
-slots = list(ind_labels.keys())
-slots.remove(label_inds['O'])
+label_set = list(ind_labels.keys())
+label_set.remove(label_inds['O'])
 
 path_crf = 'metric/crf.csv'
 
@@ -35,7 +35,7 @@ def test(sents):
         f.write('label,prec,rec' + '\n')
         for i in range(class_num):
             f.write('%s,%.2f,%.2f\n' % (ind_labels[i], precs[i], recs[i]))
-    f1 = f1_score(flat_labels, flat_preds, average='weighted', labels=slots)
+    f1 = f1_score(flat_labels, flat_preds, average='weighted', labels=label_set)
     print('\n%s f1: %.2f - acc: %.2f' % ('crf', f1, accuracy_score(flat_labels, flat_preds)))
 
 
