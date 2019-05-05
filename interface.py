@@ -35,9 +35,9 @@ def make_dict(entitys, labels):
 @app.route('/recognize', methods=['POST'])
 def response():
     data = request.get_json()
-    pairs = predict(data['content'])
+    words, preds = predict(data['content'])
     entitys, labels = list(), list()
-    for word, pred in pairs:
+    for word, pred in zip(words, preds):
         if pred != 'O':
             entitys.append(word)
             labels.append(zh_en[pred])

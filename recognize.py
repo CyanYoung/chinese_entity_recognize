@@ -26,10 +26,13 @@ def predict(text):
         triples.append(triple)
     sent = sent2feat(triples)
     preds = crf.predict([sent])[0]
-    pairs = list()
-    for word, pred in zip(words, preds):
-        pairs.append((word, pred))
-    return pairs
+    if __name__ == '__main__':
+        pairs = list()
+        for word, pred in zip(words, preds):
+            pairs.append((word, pred))
+        return pairs
+    else:
+        return words, preds
 
 
 if __name__ == '__main__':

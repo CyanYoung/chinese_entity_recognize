@@ -19,6 +19,8 @@ with open(path_sent, 'r') as f:
 with open(path_label, 'r') as f:
     labels = json.load(f)
 
+path_crf = 'model/crf.pkl'
+
 
 def fit(sents, labels, path_crf, tune):
     crf = CRF(algorithm='lbfgs', min_freq=min_freq, c1=0.1, c2=0.1,
@@ -34,5 +36,4 @@ def fit(sents, labels, path_crf, tune):
 
 
 if __name__ == '__main__':
-    path_crf = 'model/crf.pkl'
     fit(sents, labels, path_crf, tune=False)

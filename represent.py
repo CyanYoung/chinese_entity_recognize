@@ -1,4 +1,5 @@
 import json
+import pickle as pk
 
 import re
 
@@ -10,9 +11,7 @@ path_digit = 'dict/digit.txt'
 pre_name_re = load_word_re(path_pre_name)
 digit_re = load_word_re(path_digit)
 
-path_train = 'data/train.json'
-with open(path_train, 'r') as f:
-    sents = json.load(f)
+path_label_ind = 'feat/label_ind.pkl'
 
 
 def include_pre_name(word):
@@ -73,7 +72,22 @@ def sent2label(triples):
     return label
 
 
-def featurize(sents, path_sent, path_label):
+def label2ind(sents, path_label_ind):
+    labels = list()
+    for pairs in sents.values():
+        labels.extend(sent2label(pairs))
+    labels = sorted(list(set(labels)))
+    label_inds = dict()
+    for i in range(len(labels)):
+        label_inds[labels[i]] = i
+    with open(path_label_ind, 'wb') as f:
+        pk.dump(label_inds, f)
+
+
+def featurize(path_data, path_sent, path_label):
+    with open(path_data, 'r') as f:
+        sents = json.load(f)
+    label2ind(sents, path_label_ind)
     sent_feats, labels = list(), list()
     for triples in sents.values():
         sent_feats.append(sent2feat(triples))
@@ -85,6 +99,7 @@ def featurize(sents, path_sent, path_label):
 
 
 if __name__ == '__main__':
+    path_data = 'data/train.json'
     path_sent = 'feat/sent_train.json'
     path_label = 'feat/label_train.json'
-    featurize(sents, path_sent, path_label)
+    featurize(path_data, path_sent, path_label)

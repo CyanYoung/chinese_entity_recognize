@@ -42,11 +42,11 @@ def statistic(path_train):
     texts = sents.keys()
     text_lens = [len(text) for text in texts]
     all_words, slots = list(), list()
-    for quaples in sents.values():
-        for quaple in quaples:
-            all_words.append(quaple['word'])
-            if quaple['label'] != 'O':
-                slots.append(quaple['label'])
+    for triples in sents.values():
+        for triple in triples:
+            all_words.append(triple['word'])
+            if triple['label'] != 'O':
+                slots.append(triple['label'])
     count(path_vocab_freq, all_words, 'vocab')
     count(path_len_freq, text_lens, 'text_len')
     count(path_slot_freq, slots, 'slot')
