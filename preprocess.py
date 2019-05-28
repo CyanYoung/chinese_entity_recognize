@@ -134,12 +134,6 @@ def generate(temps, slots, num):
     return sents
 
 
-def sync_shuffle(list1, list2, list3):
-    triples = list(zip(list1, list2, list3))
-    shuffle(triples)
-    return zip(*triples)
-
-
 def label_sent(path):
     sents = dict()
     for text, entity_str, label_str in pd.read_csv(path).values:
@@ -155,7 +149,9 @@ def label_sent(path):
 
 def split(sents):
     word_mat, tag_mat, label_mat = dict2list(sents)
-    word_mat, tag_mat, label_mat = sync_shuffle(word_mat, tag_mat, label_mat)
+    triples = list(zip(word_mat, tag_mat, label_mat))
+    shuffle(triples)
+    word_mat, tag_mat, label_mat = zip(*triples)
     bound = int(len(word_mat) * 0.9)
     train_sents = list2dict(word_mat[:bound], tag_mat[:bound], label_mat[:bound])
     test_sents = list2dict(word_mat[bound:], tag_mat[bound:], label_mat[bound:])
